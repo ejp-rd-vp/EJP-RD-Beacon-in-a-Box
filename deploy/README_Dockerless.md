@@ -23,14 +23,99 @@ Install mongoDB following the instructions found here:
 
 #### Load the data
 
-Data is stored in mongoDB within collections of related JSON objects. For the use case of this implementation we will be storing metadata using the [LeHMR](https://lehmr.le.ac.uk/) [metadata model](https://www567.lamp.le.ac.uk/LeHMR_Dev/LeHMR/BeaconAPI/schema) within the "datasets" collection.
+Data is stored in mongoDB within collections of related JSON objects. For the use case of this implementation we will be storing metadata using following schema within the "datasets" collection.
+
+**Beaacon_Catalog schema**
+```JSON
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"title": "Beacon Catalog",
+	"$comment": "Beacon model",
+	"description": "Schema for a Beacon Catalog .",
+	"type": "object",
+	"required": ["id", "name"],
+	"properties": {
+		"id": {
+			"description": "Unique identifier of the dataset",
+			"type": "string",
+			"examples": ["dataset01"]
+		},
+		"name": {
+			"description": "Name of the dataset/resource",
+			"type": "string",
+			"examples": ["Cardiovascular events in over 70s"]
+		},
+		"description": {
+			"description": "Brief description of the dataset",
+			"type": "string",
+			"examples": ["Project for inferring relationships between cardiovascular events and age"]
+		},
+
+		"resourceType": {
+			"description": "The primary resource type for this resource.",
+			"type": "string",
+			"example" : "PatientRegistryDataset",
+			"enum": [
+			  "PatientRegistryDataset", "BiobankDataset", "KnowledgeBase"
+			]
+		},
+        "createDateTime": {
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-Model/common/commonDefinitions.json#/definitions/Timestamp",
+            "description": "The time the dataset was created (ISO 8601 format)",
+            "examples": [
+                "2017-01-17T20:33:40Z"
+            ]
+        },
+        "updateDateTime": {
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-Model/common/commonDefinitions.json#/definitions/Timestamp",
+            "description": "The time the dataset was updated in (ISO 8601 format)",
+            "examples": [
+                "2017-01-17T20:33:40Z"
+            ]
+        },
+        "version": {
+            "type": "string",
+            "description": "Version of the dataset",
+            "examples": [
+                "v1.1"
+            ]
+        },
+        "externalUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to an external system providing more dataset information (RFC 3986 format).",
+            "examples": [
+                "http://example.org/wiki/Main_Page"
+            ]
+        },
+		
+		"organisations": {
+			"description": "Organisation(s) responsible for the processing of data access requests made to this dataset",
+			"type": "array",
+			"items": {
+				"description": "Organisation responsible for the processing of data access requests made to this dataset",
+				"type": "string",
+				"examples": ["University of Leicester"]
+			},
+			"examples": [["University of Leicester", "University Hospitals of Leicester"]]
+		},
+		
+	
+	},
+	"additionalProperties": true
+}
+
+```
+
+
 
 For this implementation there is no translation of the received query into fields used by the underlying DB, the data is stored within the metadata model format and all defined filters can act upon this model directly without translation.
 
 To keep the commands simple, the commands below are provided assuming no security has been added to your mongoDB installation. Adding basic security is highly recommended.
 
 ```bash
-mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/metadata*.json --collection datasets
+mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/datasets*.json --collection datasets
+mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/individuals*.json --collection individuals
 ```
 
 The above command assumes that you have a single JSON file which contains a list of dataset objects, each of which conforms to the LeHMR metadata model.
@@ -47,7 +132,7 @@ This loads the JSON files inside of the `data` folder into the MongoDB database.
 Once the database is setup you can clone this repo onto your system and install all requirements.
 
 ```
-cd beacon-2.x
+cd EJP-RD-Beacon-in-a-Box
 pip install -r requirements.txt
 ```
 
@@ -61,11 +146,4 @@ This command will print the logs and any errors to screen. Once you are happy th
 ```
 python -m beacon &> logfile.log &
 ```
-
-### Setting the Informational endpoints data content
-
-Beacon utilises a set of Informational endpoints to describe the Beacon instance itself, the contents for these endpoints
-can be set in the [conf.py](../beacon/conf.py), [filtering_terms.py](../db/filtering_terms.py) and [framework.py](../response/framework.py)
-
-
 
