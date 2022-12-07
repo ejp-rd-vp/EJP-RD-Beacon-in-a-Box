@@ -1,11 +1,11 @@
-# Beacon v2.x
+# EJP-RD-Beacon-in-a-Box
 
 This repository is a modified version of the [Beacon2 Reference Implementation (B2RI)](https://github.com/EGA-archive/beacon-2.x) and contains a stand-alone Beacon instance designed to allow for
 the sharing of metadata of datasets.
 
 This repo contains: 
 
-* The (Python 3.9+) [source code for beacon](beacon),
+* The (Python 3.7+) [source code for beacon](beacon),
 * **A docker-less version of the B2RI**
 
 > [Local installation instructions](deploy/README_Dockerless.md)
@@ -14,30 +14,21 @@ This repo contains:
 
 To import metadata into your Beacon instance please use the [Beacon-import-tools](https://github.com/Cafe-Variome/Beacon-Import-tools).
 
+<h1 id="query">Query Endpoints</h2>
 
-## Usage
-
-You can query the beacon using GET or POST. Below, you can find some examples of usage:
-
-> For simplicity (and readability), we will be using [HTTPie](https://github.com/httpie/httpie).
-
-### Using GET
-
-Querying this endpoit it should return the 13 variants of the beacon (paginated):
+## Individuals endpoint
+> Method : GET
 
 ```bash
-http GET http://localhost:5050/api/g_variants/
+http GET http://localhost:5050/api/individuals/
 ```
+Querying this endpoit it should return all the variants of the beacon (paginated):
 
-You can also add [request parameters](https://github.com/ga4gh-beacon/beacon-v2-Models/blob/main/BEACON-V2-Model/genomicVariations/requestParameters.json) to the query, like so:
+> Method : POST
 
 ```bash
-http GET http://localhost:5050/api/g_variants/?start=9411499,9411644&end=9411609
+http POST http://localhost:5050/api/individuals/ --json < request.json
 ```
-
-This should return 3 genomic variants.
-
-### Using POST
 
 You can use POST to make the previous query. With a `request.json` file like this one:
 
@@ -47,27 +38,26 @@ You can use POST to make the previous query. With a `request.json` file like thi
         "apiVersion": "2.0"
     },
     "query": {
-        "requestParameters": {
-            "start": [ 9411499, 9411644 ],
-            "end": [ 9411609 ]
-        },
-        "filters": [],
+        "filters": [
+                {
+                "id": "HP_0001252"
+                }
+        ],
         "includeResultsetResponses": "HIT",
         "pagination": {
             "skip": 0,
             "limit": 10
         },
         "testMode": false,
-        "requestedGranularity": "count"
+        "requestedGranularity": "record"
     }
 }
 ```
+Above request will return all the individuals with "HP_0001252" phenotype.
 
 You can execute:
 
-```bash
-http POST http://localhost:5050/api/g_variants/ --json < request.json
-```
+
 
 But you can also use complex filters:
 
@@ -79,9 +69,8 @@ But you can also use complex filters:
     "query": {
         "filters": [
             {
-                "id": "UBERON:0001256",
-                "scope": "biosamples",
-                "includeDescendantTerms": false
+                "id": "obo:NCIT_C28421",
+                "value": "obo:NCIT_C16576"
             }
         ],
         "includeResultsetResponses": "HIT",
@@ -90,21 +79,78 @@ But you can also use complex filters:
             "limit": 10
         },
         "testMode": false,
-        "requestedGranularity": "count"
+        "requestedGranularity": "record"
+    }
+}
+```
+## Catalogs endpoint
+> Method : GET
+
+```bash
+http GET http://localhost:5050/api/catalogs/ --json < request.json
+```
+Above request return all records.
+> Method : POST
+
+```bash
+http POST http://localhost:5050/api/catalogs/ --json < request.json
+```
+
+<h5 id="request_body"> Query Request Body: </h5>
+
+```JSON
+{ 
+"$schema": "https://json-schema.org/draft/2020-12/schema",
+ "meta":{},
+ "query": {
+      "filters": [
+        {
+          "id": "description",
+          "value": "%genome comparison%",
+        },
+        {
+          "id": "resourceTypes",
+          "value": " BiobankDataset"
+
+        }
+      ]
     }
 }
 ```
 
-You can execute:
+**RESPONSE**
+```JSON
+{
+  "meta": {},
 
-```bash
-http POST http://localhost:5050/api/biosamples/ --json < request.json
+  "responseSummary": 
+  {
+    "exists": true,
+    "numTotalResults": 1
+  },
+  "response": {
+    "resultSets": [
+      {
+        "resultsCount": 1,
+        "results": [
+          {
+          "createDateTime": "2017-04-30T00:00:00+00:00",
+          "description": "The Genome in a Bottle Consortium, hosted by the National Institute of Standards and Technology (NIST) is creating reference materials and data for human genome sequencing, as well as methods for genome comparison and benchmarking. ",
+          "externalUrl": "https://www.nature.com/articles/sdata201625, https://jimb.stanford.edu/giab-resources",
+          "id": "EGAD00001008097",
+          "name": "The Genome in a Bottle Consortium (GIAB)",
+          "updateDateTime": "2017-04-30T00:00:00+00:00",
+          "resourceTypes": ["BiobankDataset"],
+          "organisation": ["UOL"]
+
+          }
+        ],
+        "resultsHandover": null
+      }
+    ]
+  },
+  "beaconHandovers": []
+  }
 ```
 
-And it will use the ontology filter to filter the results.
-
-
-### Version notes
-
-* Fusions (`mateName`) are not supported.
 
