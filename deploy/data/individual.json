@@ -1,0 +1,651 @@
+[{
+  "_id": {
+    "$oid": "63909d0995d755191c527201"
+  },
+  "subject_id": "S0001",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 14,
+  "efo:EFO_0004847": 13,
+  "obo:NCIT_C156420": 12,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527202"
+  },
+  "subject_id": "S0002",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 15,
+  "efo:EFO_0004847": 14,
+  "obo:NCIT_C156420": 13,
+  "Materials": "Whole Exome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527203"
+  },
+  "subject_id": "S0003",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 16,
+  "efo:EFO_0004847": 15,
+  "obo:NCIT_C156420": 14,
+  "Materials": "Exome panel sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527204"
+  },
+  "subject_id": "S0004",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 17,
+  "efo:EFO_0004847": 16,
+  "obo:NCIT_C156420": 15,
+  "Materials": "RNA sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527205"
+  },
+  "subject_id": "S0005",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 18,
+  "efo:EFO_0004847": 17,
+  "obo:NCIT_C156420": 16,
+  "Materials": "methylomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527206"
+  },
+  "subject_id": "S0006",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 19,
+  "efo:EFO_0004847": 18,
+  "obo:NCIT_C156420": 17,
+  "Materials": "Epigenomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527207"
+  },
+  "subject_id": "S0007",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 20,
+  "efo:EFO_0004847": 19,
+  "obo:NCIT_C156420": 18,
+  "Materials": "Pedigree data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527208"
+  },
+  "subject_id": "S0008",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 21,
+  "efo:EFO_0004847": 20,
+  "obo:NCIT_C156420": 19,
+  "Materials": "Clinical data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527209"
+  },
+  "subject_id": "S0009",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 22,
+  "efo:EFO_0004847": 21,
+  "obo:NCIT_C156420": 20,
+  "Materials": "Biosamples"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720a"
+  },
+  "subject_id": "S0010",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 23,
+  "efo:EFO_0004847": 22,
+  "obo:NCIT_C156420": 21,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720b"
+  },
+  "subject_id": "S0011",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 14,
+  "efo:EFO_0004847": 13,
+  "obo:NCIT_C156420": 12,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720c"
+  },
+  "subject_id": "S0012",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 15,
+  "efo:EFO_0004847": 14,
+  "obo:NCIT_C156420": 13,
+  "Materials": "Whole Exome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720d"
+  },
+  "subject_id": "S0013",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 16,
+  "efo:EFO_0004847": 15,
+  "obo:NCIT_C156420": 14,
+  "Materials": "Exome panel sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720e"
+  },
+  "subject_id": "S0014",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 17,
+  "efo:EFO_0004847": 16,
+  "obo:NCIT_C156420": 15,
+  "Materials": "RNA sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52720f"
+  },
+  "subject_id": "S0015",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 18,
+  "efo:EFO_0004847": 17,
+  "obo:NCIT_C156420": 16,
+  "Materials": "methylomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527210"
+  },
+  "subject_id": "S0016",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 19,
+  "efo:EFO_0004847": 18,
+  "obo:NCIT_C156420": 17,
+  "Materials": "Epigenomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527211"
+  },
+  "subject_id": "S0017",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 20,
+  "efo:EFO_0004847": 19,
+  "obo:NCIT_C156420": 18,
+  "Materials": "Pedigree data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527212"
+  },
+  "subject_id": "S0018",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 21,
+  "efo:EFO_0004847": 20,
+  "obo:NCIT_C156420": 19,
+  "Materials": "Clinical data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527213"
+  },
+  "subject_id": "S0019",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 22,
+  "efo:EFO_0004847": 21,
+  "obo:NCIT_C156420": 20,
+  "Materials": "Biosamples"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527214"
+  },
+  "subject_id": "S0020",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 23,
+  "efo:EFO_0004847": 22,
+  "obo:NCIT_C156420": 21,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527215"
+  },
+  "subject_id": "S0021",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 14,
+  "efo:EFO_0004847": 13,
+  "obo:NCIT_C156420": 12,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527216"
+  },
+  "subject_id": "S0022",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 15,
+  "efo:EFO_0004847": 14,
+  "obo:NCIT_C156420": 13,
+  "Materials": "Whole Exome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527217"
+  },
+  "subject_id": "S0023",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 16,
+  "efo:EFO_0004847": 15,
+  "obo:NCIT_C156420": 14,
+  "Materials": "Exome panel sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527218"
+  },
+  "subject_id": "S0024",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 17,
+  "efo:EFO_0004847": 16,
+  "obo:NCIT_C156420": 15,
+  "Materials": "RNA sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527219"
+  },
+  "subject_id": "S0025",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 18,
+  "efo:EFO_0004847": 17,
+  "obo:NCIT_C156420": 16,
+  "Materials": "methylomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721a"
+  },
+  "subject_id": "S0026",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 19,
+  "efo:EFO_0004847": 18,
+  "obo:NCIT_C156420": 17,
+  "Materials": "Epigenomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721b"
+  },
+  "subject_id": "S0027",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 20,
+  "efo:EFO_0004847": 19,
+  "obo:NCIT_C156420": 18,
+  "Materials": "Pedigree data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721c"
+  },
+  "subject_id": "S0028",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 21,
+  "efo:EFO_0004847": 20,
+  "obo:NCIT_C156420": 19,
+  "Materials": "Clinical data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721d"
+  },
+  "subject_id": "S0029",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 22,
+  "efo:EFO_0004847": 21,
+  "obo:NCIT_C156420": 20,
+  "Materials": "Biosamples"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721e"
+  },
+  "subject_id": "S0030",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 23,
+  "efo:EFO_0004847": 22,
+  "obo:NCIT_C156420": 21,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52721f"
+  },
+  "subject_id": "S0031",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 14,
+  "efo:EFO_0004847": 13,
+  "obo:NCIT_C156420": 12,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527220"
+  },
+  "subject_id": "S0032",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 15,
+  "efo:EFO_0004847": 14,
+  "obo:NCIT_C156420": 13,
+  "Materials": "Whole Exome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527221"
+  },
+  "subject_id": "S0033",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 16,
+  "efo:EFO_0004847": 15,
+  "obo:NCIT_C156420": 14,
+  "Materials": "Exome panel sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527222"
+  },
+  "subject_id": "S0034",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 17,
+  "efo:EFO_0004847": 16,
+  "obo:NCIT_C156420": 15,
+  "Materials": "RNA sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527223"
+  },
+  "subject_id": "S0035",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 18,
+  "efo:EFO_0004847": 17,
+  "obo:NCIT_C156420": 16,
+  "Materials": "methylomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527224"
+  },
+  "subject_id": "S0036",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 19,
+  "efo:EFO_0004847": 18,
+  "obo:NCIT_C156420": 17,
+  "Materials": "Epigenomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527225"
+  },
+  "subject_id": "S0037",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 20,
+  "efo:EFO_0004847": 19,
+  "obo:NCIT_C156420": 18,
+  "Materials": "Pedigree data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527226"
+  },
+  "subject_id": "S0038",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 21,
+  "efo:EFO_0004847": 20,
+  "obo:NCIT_C156420": 19,
+  "Materials": "Clinical data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527227"
+  },
+  "subject_id": "S0039",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 22,
+  "efo:EFO_0004847": 21,
+  "obo:NCIT_C156420": 20,
+  "Materials": "Biosamples"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527228"
+  },
+  "subject_id": "S0040",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 23,
+  "efo:EFO_0004847": 22,
+  "obo:NCIT_C156420": 21,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527229"
+  },
+  "subject_id": "S0041",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 14,
+  "efo:EFO_0004847": 13,
+  "obo:NCIT_C156420": 12,
+  "Materials": "Whole Genome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722a"
+  },
+  "subject_id": "S0042",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 15,
+  "efo:EFO_0004847": 14,
+  "obo:NCIT_C156420": 13,
+  "Materials": "Whole Exome Sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722b"
+  },
+  "subject_id": "S0043",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 16,
+  "efo:EFO_0004847": 15,
+  "obo:NCIT_C156420": 14,
+  "Materials": "Exome panel sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722c"
+  },
+  "subject_id": "S0044",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 17,
+  "efo:EFO_0004847": 16,
+  "obo:NCIT_C156420": 15,
+  "Materials": "RNA sequence"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722d"
+  },
+  "subject_id": "S0045",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 18,
+  "efo:EFO_0004847": 17,
+  "obo:NCIT_C156420": 16,
+  "Materials": "methylomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722e"
+  },
+  "subject_id": "S0046",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 19,
+  "efo:EFO_0004847": 18,
+  "obo:NCIT_C156420": 17,
+  "Materials": "Epigenomics"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c52722f"
+  },
+  "subject_id": "S0047",
+  "obo:NCIT_C28421": "obo:NCIT_C124294",
+  "sio:SIO_001003": "ordo:Orphanet_1653",
+  "sio:SIO_010056": "obo:HP_0001253",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 20,
+  "efo:EFO_0004847": 19,
+  "obo:NCIT_C156420": 18,
+  "Materials": "Pedigree data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527230"
+  },
+  "subject_id": "S0048",
+  "obo:NCIT_C28421": "obo:NCIT_C17998",
+  "sio:SIO_001003": "ordo:Orphanet_846",
+  "sio:SIO_010056": "obo:HP_0001254",
+  "obo:NCIT_C16612": "HBA2",
+  "obo:NCIT_C25150": 21,
+  "efo:EFO_0004847": 20,
+  "obo:NCIT_C156420": 19,
+  "Materials": "Clinical data"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527231"
+  },
+  "subject_id": "S0049",
+  "obo:NCIT_C28421": "obo:NCIT_C16576",
+  "sio:SIO_001003": "ordo:Orphanet_558",
+  "sio:SIO_010056": "obo:HP_0001251",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 22,
+  "efo:EFO_0004847": 21,
+  "obo:NCIT_C156420": 20,
+  "Materials": "Biosamples"
+},{
+  "_id": {
+    "$oid": "63909d0995d755191c527232"
+  },
+  "subject_id": "S0050",
+  "obo:NCIT_C28421": "obo:NCIT_C20197",
+  "sio:SIO_001003": "ordo:Orphanet_34587",
+  "sio:SIO_010056": "obo:HP_0001252",
+  "obo:NCIT_C16612": "LAMP2",
+  "obo:NCIT_C25150": 23,
+  "efo:EFO_0004847": 22,
+  "obo:NCIT_C156420": 21,
+  "Materials": "Whole Genome Sequence"
+}]
