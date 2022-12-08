@@ -18,12 +18,12 @@ You should have installed:
 Install mongoDB following the instructions found here:
 [https://www.mongodb.com/try/download](https://www.mongodb.com/try/download)
 
-> *optional*: Install a program to interact with your mongoDB to view and edit the DB contents, such as [mongo-express](https://github.com/mongo-express/mongo-express)
+> *optional*: Install a program to interact with your mongoDB to view and edit the DB contents, such as [MongoDB Compass](https://www.mongodb.com/try/download/compass))
 
 
 #### Load the data
 
-Data is stored in mongoDB within collections of related JSON objects. For the use case of this implementation we will be storing metadata using following schema within the "datasets" collection.
+Data is stored in mongoDB within collections of related JSON objects. For the use case of this implementation we will be storing metadata using following schema within the "datasets" collection and individuals in "individuals" collection.
 
 **Beaacon_Catalog schema**
 ```JSON
@@ -115,10 +115,9 @@ To keep the commands simple, the commands below are provided assuming no securit
 
 ```bash
 mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/datasets*.json --collection datasets
-mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/individuals*.json --collection individuals
+mongoimport --jsonArray --uri "mongodb://127.0.0.1:27017/beacon" --file data/individual*.json --collection individuals
 ```
 
-The above command assumes that you have a single JSON file which contains a list of dataset objects, each of which conforms to the LeHMR metadata model.
 
 This loads the JSON files inside of the `data` folder into the MongoDB database.
 
