@@ -35,8 +35,8 @@ With `mongo-express` we can see the contents of the database at [http://localhos
 To load the database we execute the following commands:
 
 ```bash
-mongoimport --jsonArray --uri "mongodb://vpbib:vpbin@127.0.0.1:27017/beacon?authSource=admin" --file data/datasets*.json --collection datasets
-mongoimport --jsonArray --uri "mongodb://vpbib:example@127.0.0.1:27017/beacon?authSource=admin" --file data/individuals*.json --collection individuals
+mongoimport --jsonArray --uri "mongodb://vpbib:vpbib@127.0.0.1:27017/beacon?authSource=admin" --file data/datasets*.json --collection datasets
+mongoimport --jsonArray --uri "mongodb://vpbib:vpbib@127.0.0.1:27017/beacon?authSource=admin" --file data/individuals*.json --collection individuals
 ```
 
 This loads the JSON files inside of the `data` folder into the MongoDB database.
