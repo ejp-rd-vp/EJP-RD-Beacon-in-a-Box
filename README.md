@@ -6,10 +6,10 @@ the sharing of metadata of datasets.
 This repo contains: 
 
 * The (Python 3.7+) [source code for beacon](beacon),
-* **A docker-less version of the B2RI**
-
-> [Local installation instructions(Docker)](deploy/README_Docker.md)
-> [Local installation instructions](deploy/README_Dockerless.md)
+### Local installation instructions(Docker)
+> [Instructions](deploy/README_Docker.md)
+### Local installation instructions(Dockerless)
+> [Instructions](deploy/README_Dockerless.md)
 
 ### Importing metadata into the Beacon-in-a-box
 
