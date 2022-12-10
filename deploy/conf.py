@@ -8,6 +8,7 @@ beacon_name = 'GA4GH Approval Beacon Test'  # Name of the Beacon service
 api_version = 'v2.0.0'  # Version of the Beacon implementation
 uri = 'https://beacon-giab-test.ega-archive.org'
 beacon_granularity = "record"
+max_beacon_granularity = "record"
 
 #
 #  Organization info
@@ -71,8 +72,8 @@ beacon_handovers = [
 #
 database_host = '127.0.0.1'
 database_port = 27017
-database_user = 'root'
-database_password = 'example'
+database_user = 'vpbib'
+database_password = 'vpbib'
 database_name = 'beacon'
 database_auth_source = 'admin'
 # database_schema = 'public' # comma-separated list of schemas

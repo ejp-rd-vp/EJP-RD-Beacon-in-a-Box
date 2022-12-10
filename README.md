@@ -8,6 +8,7 @@ This repo contains:
 * The (Python 3.7+) [source code for beacon](beacon),
 * **A docker-less version of the B2RI**
 
+> [Local installation instructions(Docker)](deploy/README_Docker.md)
 > [Local installation instructions](deploy/README_Dockerless.md)
 
 ### Importing metadata into the Beacon-in-a-box

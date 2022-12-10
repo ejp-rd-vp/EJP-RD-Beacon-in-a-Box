@@ -20,34 +20,38 @@ def apply_filters(query: dict, filters: List[dict]) -> dict:
     LOG.debug("Filters len = {}".format(len(filters)))
     if len(filters) > 0:
         query["$and"] = []
-    for filter in filters:
         partial_query = {}
-        if filter["id"].startswith('HP_') or filter["id"].startswith('Orphanet_'):
-            filter = OntologyFilter(**filter)
-            LOG.debug("Ontology filter: %s", filter.id)
-            partial_query = {"$text": defaultdict(str)}
-            partial_query = apply_ontology_filter(partial_query, filter)
+        for filter in filters:
+            if type(filter["id"]) == list:
+                partial_query = format_array_filter(filter["id"])
+            # if filter["id"].startswith('HP_') or filter["id"].startswith('Orphanet_'):
+            #     filter = OntologyFilter(**filter)
+            #     LOG.debug("Ontology filter: %s", filter.id)
+            #     partial_query = {"$text": defaultdict(str)}
+            #     partial_query = apply_ontology_filter(partial_query, filter)
 
-        elif "value" in filter:
-            filter = AlphanumericFilter(**filter)
-            value = format_value(filter.value)
-            LOG.info(type(value))
-            if(isinstance(value, int)):
-                LOG.debug("Numeric filter: %s %s %s",filter.id, filter.operator, filter.value)
-                partial_query = apply_numeric_filter(partial_query, filter)
+            elif "value" in filter:
+                filter = AlphanumericFilter(**filter)
+                value = format_value(filter.value)
+                LOG.info(type(value))
+                if(isinstance(value, int)):
+                    LOG.debug("Numeric filter: %s %s %s",filter.id, filter.operator, filter.value)
+                    partial_query = apply_numeric_filter(partial_query, filter)
+                else:
+                    LOG.debug("Alphanumeric filter: %s %s %s",filter.id, filter.operator, filter.value)
+                    partial_query = apply_alphanumeric_filter(partial_query, filter)
+            elif "similarity" in filter or "includeDescendantTerms" in filter or re.match(CURIE_REGEX, filter["id"]):
+                filter = OntologyFilter(**filter)
+                LOG.debug("Ontology filter: %s", filter.id)
+                partial_query = {"$text": defaultdict(str)}
+                partial_query = apply_ontology_filter(partial_query, filter)
             else:
-                LOG.debug("Alphanumeric filter: %s %s %s",filter.id, filter.operator, filter.value)
-                partial_query = apply_alphanumeric_filter(partial_query, filter)
-        # elif "similarity" in filter or "includeDescendantTerms" in filter or re.match(CURIE_REGEX, filter["id"]):
-        #     filter = OntologyFilter(**filter)
-        #     LOG.debug("Ontology filter: %s", filter.id)
-        #     partial_query = {"$text": defaultdict(str)}
-        #     partial_query = apply_ontology_filter(partial_query, filter)
-        else:
-            filter = CustomFilter(**filter)
-            LOG.debug("Custom filter: %s", filter.id)
-            partial_query = apply_custom_filter(partial_query, filter)
+                filter = CustomFilter(**filter)
+                LOG.debug("Custom filter: %s", filter.id)
+                partial_query = apply_custom_filter(partial_query, filter)
         query["$and"].append(partial_query)
+    else:
+        query={}
     return query
 
  
@@ -55,36 +59,32 @@ def apply_ontology_filter(query: dict, filter: OntologyFilter) -> dict:
     LOG.debug("QUERY: %s", query)
     is_filter_id_required = True
     q =""
-    # # Search similar
-    # if filter.similarity != Similarity.EXACT:
-    #     is_filter_id_required = False
-    #     similar_terms = ontologies.get_similar_ontology_terms(
-    #         filter.id, filter.similarity)
-    #     LOG.debug("Similar: {}".format(similar_terms))
-    #     for term in similar_terms:
-    #         if query["$text"]["$search"]:
-    #             query["$text"]["$search"] += " "
-    #         query["$text"]["$search"] += term
+    # Search similar
+    if filter.similarity != Similarity.EXACT:
+        is_filter_id_required = False
+        similar_terms = ontologies.get_similar_ontology_terms(
+            filter.id, filter.similarity)
+        LOG.debug("Similar: {}".format(similar_terms))
+        for term in similar_terms:
+            if query["$text"]["$search"]:
+                query["$text"]["$search"] += '\"' + term + '\"'
 
-    # # Apply descendant terms
-    # if filter.include_descendant_terms:
-    #     is_filter_id_required = False
-    #     descendants = ontologies.get_descendants(filter.id)
-    #     LOG.debug("Descendants: {}".format(descendants))
-    #     for descendant in descendants:
-    #         if query["$text"]["$search"]:
-    #             query["$text"]["$search"] += " "
-    #         query["$text"]["$search"] += descendant
+    # Apply descendant terms
+    if filter.include_descendant_terms:
+        is_filter_id_required = False
+        descendants = ontologies.get_descendants(filter.id)
+        LOG.debug("Descendants: {}".format(descendants))
+        for descendant in descendants:
+            if query["$text"]["$search"]:
+                query["$text"]["$search"] += '\"' + descendant + '\"'
 
     if is_filter_id_required:
-        # if query["$text"]["$search"]:
-        #     query["$text"]["$search"] += " "
-        # query["$text"]["$search"] += '\"' + filter.id + '\"'
-        if filter.id.startswith('Orphanet_'):
-           LOG.debug("QUERY: %s", query)
-           q = {"sio:SIO_001003": {'$regex': filter.id }}
-        elif filter.id.startswith('HP_'):
-            q = {"sio:SIO_010056": {'$regex':  filter.id }}
+        q ={"$text":{"$search": filter.id}}
+        # if filter.id.startswith('Orphanet_'):
+        #    LOG.debug("QUERY: %s", query)
+        #    q = {"sio:SIO_001003": {'$regex': filter.id }}
+        # elif filter.id.startswith('HP_'):
+        #     q = {"sio:SIO_010056": {'$regex':  filter.id }}
     
     return q
 
@@ -140,8 +140,18 @@ def apply_numeric_filter(query: dict, filter: NumericFilter) -> dict:
 
 
 def apply_custom_filter(query: dict, filter: CustomFilter) -> dict:
-    if query["$text"]["$search"]:
-        query["$text"]["$search"] += " "
-    query["$text"]["$search"] += filter.id
-    LOG.debug("QUERY: %s", query)
+    LOG.info(query)
+    if "$text" in query:
+        LOG.info(query)
+        query["$text"]["$search"] += " "+'\"' + filter.id + '\"'
+    else:
+         query ={"$text":{"$search": filter.id}}
     return query
+
+def format_array_filter(filterId:list):
+
+    search =""
+    for i in filterId:
+        search += " "+ i
+    q ={"$text":{"$search": search}}
+    return q

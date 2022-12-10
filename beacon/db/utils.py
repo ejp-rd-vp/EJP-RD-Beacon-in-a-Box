@@ -25,12 +25,12 @@ def query_property(query: dict, property_id: str, value: str, property_map: Dict
 
 
 def get_count(collection: Collection, query: dict) -> int:
+    
     if not query:
-        LOG.debug("Returning estimated count")
         return collection.estimated_document_count()
     else:
-        LOG.debug("FINAL QUERY (COUNT): {}".format(query))
-        LOG.debug("Returning count")
+        LOG.debug("FINAL QUERY (Record): {}".format(query))
+        LOG.debug("Returning Records")
         return collection.count_documents(query)
 
 

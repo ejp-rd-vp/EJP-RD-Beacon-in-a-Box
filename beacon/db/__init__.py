@@ -12,10 +12,12 @@ LOG = logging.getLogger(__name__)
 #     conf.database_name,
 #     conf.database_auth_source
 # ))
+# LOG.info(client)
+# userSection = F"{conf.database_user}:{conf.database_password}@" if conf.database_user else ""
+# dbSection = F"{conf.database_host}:{conf.database_port}/{conf.database_name}{'?authSource='+ conf.database_auth_source if conf.database_auth_source else ''}"
 
-userSection = F"{conf.database_user}:{conf.database_password}@" if conf.database_user else ""
-dbSection = F"{conf.database_host}:{conf.database_port}/{conf.database_name}{'?authSource='+ conf.database_auth_source if conf.database_auth_source else ''}"
+# client = MongoClient(F"mongodb://{userSection}{dbSection}")
 
-client = MongoClient(F"mongodb://{userSection}{dbSection}")
+client = MongoClient("mongodb://vpbib:vpbib@beacon_db:27017/beacon?authSource=admin")
 
 

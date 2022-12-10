@@ -14,16 +14,17 @@ services:
   db:
     image: mongo:5
     hostname: mongo
+    container_name: beacon_db
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_ROOT_USERNAME: vpbib
+      MONGO_INITDB_ROOT_PASSWORD: vpbib
       MONGO_INITDB_DATABASE: beacon
     volumes:
       - ./mongo-init/:/docker-entrypoint-initdb.d/:ro
-    # networks:
-    #   - beacon-priv
+    networks:
+      - beacon-priv
 
   mongo-express:
     image: mongo-express
@@ -31,11 +32,11 @@ services:
     ports:
       - 8081:8081
     environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: example
-      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
-    # networks:
-    #   - beacon-priv
+      ME_CONFIG_MONGODB_ADMINUSERNAME: vpbib
+      ME_CONFIG_MONGODB_ADMINPASSWORD: vpbib
+      ME_CONFIG_MONGODB_URL: mongodb://vpbib:vpbib@mongo:27017/
+    networks:
+      - beacon-priv
 
   ###########################################
   # Beacon
@@ -43,21 +44,21 @@ services:
 
   beacon:
     build: ..
-    image: egarchive/beacon:2.0
+    image: ejprd/beacon:2.0
     hostname: beacon
     container_name: beacon
     volumes:
-      # - ../beacon:/beacon/beacon  # inject the code, so we see the modifications "live"
-      # - ../ui/static:/beacon/ui/static
-      # - ../ui/templates:/beacon/ui/templates
+      - ../beacon:/beacon/beacon  # inject the code, so we see the modifications "live"
+      - ../ui/static:/beacon/ui/static
+      - ../ui/templates:/beacon/ui/templates
       - ./conf.py:/beacon/beacon/conf.py
       - ./logger.yml:/beacon/beacon/logger.yml
       - ./ontologies:/beacon/ontologies
     ports:
       - "5050:5050"
-    # networks:
-    #   - beacon-priv
-    #   - pub
+    networks:
+      - beacon-priv
+      - pub
     working_dir: '/beacon'
     entrypoint: ['python','-m','beacon']
     # entrypoint: ['/bin/sleep','100000000']

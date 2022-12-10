@@ -65,10 +65,10 @@ beacon_handovers = [
 #
 database_host = '127.0.0.1'
 database_port = 27017
-database_user = False
+database_user = 'vpbib'
 database_name = 'beacon'
-database_auth_source = False
-database_password = False
+database_auth_source = 'admin'
+database_password = 'vpbib'
 # database_schema = 'public' # comma-separated list of schemas
 # database_app_name = 'beacon-appname' # Useful to track connections
 
