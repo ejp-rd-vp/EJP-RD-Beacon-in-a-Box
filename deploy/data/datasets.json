@@ -1,10 +1,2523 @@
-[
-  {
-    "createDateTime": "2017-04-30T00:00:00+00:00",
-    "description": "The Genome in a Bottle Consortium, hosted by the National Institute of Standards and Technology (NIST) is creating reference materials and data for human genome sequencing, as well as methods for genome comparison and benchmarking. ",
-    "externalUrl": "https://www.nature.com/articles/sdata201625, https://jimb.stanford.edu/giab-resources",
-    "id": "EGAD00001008097",
-    "name": "The Genome in a Bottle Consortium (GIAB)",
-    "updateDateTime": "2017-04-30T00:00:00+00:00"
-  }
-]
+  [
+    {
+      "createDateTime": "2017-04-30T00:00:00+00:00",
+      "description": "The Genome in a Bottle Consortium, hosted by the National Institute of Standards and Technology (NIST) is creating reference materials and data for human genome sequencing, as well as methods for genome comparison and benchmarking. ",
+      "externalUrl": "https://www.nature.com/articles/sdata201625, https://jimb.stanford.edu/giab-resources",
+      "id": "EGAD00001008097",
+      "name": "The Genome in a Bottle Consortium (GIAB)",
+      "updateDateTime": "2017-04-30T00:00:00+00:00"
+    }
+  ,
+      {
+      "id": "7DC8EF10-67Ac-C0aE-Cc7D-c3CEFa6BDd8A",
+      "name": "The Plant Your Health study",
+      "description": "The effects of an 8-week vegan diet on Trimethylamine-N-Oxide (TMAO) levels and post-challenge glucose levels in individuals with dysglycaemia..; Purpose: To investigate the effect of an 8-week vegan diet on TMAO plasma levels and 3-hour post-challenge gl",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "The Plant Your Health study"
+      },
+      {
+      "id": "0b8FfBE9-4b7B-b4D9-ec3D-c2C3eAF6a4f5",
+      "name": "STAND UP - Experimental intervention",
+      "description": "STAND UP Sedentary behaviour in older adults: investigating a new therapeutic paradigm Work Package 3: Investigating the effect of sedentary time, reduced sedentary time and increased light-intensity physical activity on metabolic and psychological health",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "STAND UP - Experimental intervention"
+      },
+      {
+      "id": "937FBbda-0fAC-BabE-Fcd1-E84A3bf51c6C",
+      "name": "STAND UP - Cut-point validation study",
+      "description": "STAND UP - Sedentary behaviour in older adults: investigating a new therapeutic paradigm Work Package 1: Classification validation for assessment of objective sedentary behaviour and physical activity in older adults",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "STAND UP - Cut-point validation study"
+      },
+      {
+      "id": "2f3abC4A-C7D6-7ac5-4D73-5DFf20d4aeC6",
+      "name": "SMArT Work: Stand More at Work",
+      "description": "SMArT Work: Stand More AT Work The development of behaviour change strategies for increasing standing and movement among NHS office based staff working in Leicestershire Hospitals",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "SMArT Work: Stand More at Work"
+      },
+      {
+      "id": "87Eb15F2-25D8-BCca-1236-bDda6097c142",
+      "name": "Type 1 Activity and Glucose (TAG1) study",
+      "description": "Type 1 Activity and Glucose (TAG1) study; A pilot study informing the feasibility and design of a continuous measures physical activity intervention in young adults with type 1 diabetes mellitus. Type 1 Activity and Glucose Study TAG1",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Type 1 Activity and Glucose (TAG1) study"
+      },
+      {
+      "id": "B0Ac7d98-3B9A-1597-35a7-aAF8C7E2cB6e",
+      "name": "The REACT study",
+      "description": "The REACT study: Establishing what relationship exists between fungal colonisation and allergy and the clinical, radiological and pathological characteristics of lung disease",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "The REACT study"
+      },
+      {
+      "id": "EFaD523A-F97A-bA2B-D72B-c820eBF4E5a1",
+      "name": "The Leicester Institute for Lung Health Research Tissue Bank",
+      "description": "The Leicester Institute for Lung Health Research Tissue Bank",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "The Leicester Institute for Lung Health Research Tissue Bank"
+      },
+      {
+      "id": "58BA70aF-A4D6-5460-41CA-1fFA56CDdEb8",
+      "name": "Study of Mepolizumab in Patients with HES Who Receive Standard Therapy",
+      "description": "A randomized, double-blind, placebo-controlled study to investigate the efficacy and safety of mepolizumab in the treatment of adolescent and adult subjects with severe hypereosinophilic syndrome",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Study of Mepolizumab in Patients with HES Who Receive Standard Therapy"
+      },
+      {
+      "id": "F7Ccf1ae-a7C3-A0Be-170d-b0476ae2EBC9",
+      "name": "Study of mepolizumab in patients with HES from Study 200622",
+      "description": "A multi-centre, open-label extension, safety study to describe the longterm  clinical experience of mepolizumab in participants with hypereosinophilic syndrome  (HES) from Study 200622",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Study of mepolizumab in patients with HES from Study 200622"
+      },
+      {
+      "id": "a3ceE2B0-dF6B-5E9f-2eED-c75dC1BAFeD0",
+      "name": "RESP 4683",
+      "description": "Mepolizumab Long-term Access Programme for Subjects who  Participated in Study MEA115921 (Placebo-controlled Study of Mepolizumab in the Treatment of Eosinophilic Granulomatosis with Polyangiitis in Subjects Receiving Standard-of-care Therapy) RESP - 4683",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "RESP 4683"
+      },
+      {
+      "id": "CBd3e248-baAF-BFAc-a5bB-dA6a35980e47",
+      "name": "Phenotyping bronchiectasis over 2 years including a macrolide trial",
+      "description": "Phenotyping bronchiectasis over 2 years including a macrolide trial;  Phenotyping bronchiectasis based on aetiology, exacerbation characteristics and response to erythromycin.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Phenotyping bronchiectasis over 2 years including a macrolide trial"
+      },
+      {
+      "id": "9c7f5bD8-e48f-1962-c51B-d6085e9bEcA7",
+      "name": "MLTC",
+      "description": " Use of tissue from lung resections to investigate the molecular and functional mechanisms of human lung disease",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "MLTC"
+      },
+      {
+      "id": "FB15eDb9-fcd8-B7DA-5Bb1-e2aB7C61bFAE",
+      "name": "GSK3772847 in participants with Asthma with AFAD",
+      "description": "A double blind (sponsor open) placebo-controlled, stratified, parallel  group study to evaluate the efficacy and safety of repeat doses of GSK3772847 in  participants with moderate to severe asthma with allergic fungal airway disease (AFAD)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "GSK3772847 in participants with Asthma with AFAD"
+      },
+      {
+      "id": "8b4D2Fdc-34ae-16D0-c650-D879d2Ba4c6e",
+      "name": "DETECTION OF METHACHOLINE CHALLENGE INDUCED ASTHMA SYMPTOMS USING A NOVEL DEVICE.",
+      "description": "DETECTION OF METHACHOLINE CHALLENGE INDUCED ASTHMA SYMPTOMS USING A NOVEL DEVICE",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DETECTION OF METHACHOLINE CHALLENGE INDUCED ASTHMA SYMPTOMS USING A NOVEL DEVICE."
+      },
+      {
+      "id": "cBCE5740-78ec-aC52-e8bC-c71dfFCB4e26",
+      "name": "Heart Outcomes Prevention Evaluation (HOPE)- 3 (version 1.6.1)",
+      "description": " Heart Outcomes Prevention Evaluation (HOPE)- 3. A large simple randomized trial of combined cholesterol modification and blood pressure lowering in middle aged people at average risk",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Heart Outcomes Prevention Evaluation (HOPE)- 3 (version 1.6.1)"
+      },
+      {
+      "id": "027BDaEC-03f7-b97c-fbd8-F9Dbe47816d3",
+      "name": "Extended cohort for e-health, environment and DNA (EXCEED) Study",
+      "description": "Extended cohort for e-health, environment and DNA (EXCEED) Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Extended cohort for e-health, environment and DNA (EXCEED) Study"
+      },
+      {
+      "id": "6b0D2daC-3bEa-E8C7-26cE-a3E71cbeD24f",
+      "name": "CHALLENGE-UK: A UK cohort of the CHALLENGE trial",
+      "description": " CHALLENGE-UK: A UK cohort of a Phase III study (CHALLENGE: the Colon Health and Lifelong Exercise Change  study) of the impact of a physical activity programme on disease-free survival in patients with high risk Stage II or  Stage III colon cancer: A Ran",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "CHALLENGE-UK: A UK cohort of the CHALLENGE trial"
+      },
+      {
+      "id": "91Ffd52B-F0aD-Fb8B-c25E-eC9FD1c3dab4",
+      "name": "CELEB: lung volume reduction in COPD - surgery vs endobronchial valves",
+      "description": "The CELEB trial: Comparative Effectiveness of Lung volume reduction surgery for Emphysema and Bronchoscopic lung volume reduction with valve placement; People with emphysema have lungs that become baggy and full of holes meaning that they are unable to br",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "CELEB: lung volume reduction in COPD - surgery vs endobronchial valves"
+      },
+      {
+      "id": "C67bEdDe-f1b2-f6E4-52C0-DC98EA50f2c4",
+      "name": "Yorkshire heart failure and assessment risk trial (Yorkshire HEART)",
+      "description": "Prospective validation of prognostic markers in patients with chronic heart failure",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Yorkshire heart failure and assessment risk trial (Yorkshire HEART)"
+      },
+      {
+      "id": "3489eFfb-E58e-af7D-E7d9-42fbA9e0371C",
+      "name": "TRANSITION_LCZ696 pre/ post discharge in acute heart failure",
+      "description": "A multicenter, randomized, open label, parallel group study comparing pre-discharge and posT-discharge tReatment initiation with LCZ696 in heArt failure patieNtS with reduced ejectIon-fracTion hospItalized for an acute decOmpensation eveNt (ADHF) (the TRA",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "TRANSITION_LCZ696 pre/ post discharge in acute heart failure"
+      },
+      {
+      "id": "37C6d8BE-3D1C-0AaF-DCa3-C3286E1BFAD4",
+      "name": "Phase 2 with Elamipretide in Subjects with Congestive Heart Failure",
+      "description": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Cardiac and Renal Effects of Short Term Treatment with Elamipretide in Patients Hospitalized with Congestion due to Heart Failure; Heart failure is a major cause of large economi",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Phase 2 with Elamipretide in Subjects with Congestive Heart Failure"
+      },
+      {
+      "id": "E2CD0A84-dbE6-d3f1-e85B-8D1A7dBc543C",
+      "name": "PARADISE-MI",
+      "description": "A multi-center, randomized, double-blind, active-controlled, parallelgroup  Phase 3 study to evaluate the efficacy and safety of LCZ696  compared to ramipril on morbidity and mortality in patients with left  ventricular dysfunction following an acute myoc",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "PARADISE-MI"
+      },
+      {
+      "id": "9ef1a4DC-Be7F-c5DA-AFE7-F1cA53DCad76",
+      "name": "LENTEN",
+      "description": "Investigation of molecular forms of ANP and BNP in patients with heart failure treated with ACE inhibitor and following switch to sacubitril valsartan.; Purpose: To investigate differences in processing in the circulation of BNP and ANP in the setting of ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "LENTEN"
+      },
+      {
+      "id": "d4eE0F6A-CBE7-b0Ac-08D7-597eD64cC0d2",
+      "name": "IRONMAN",
+      "description": "Effectiveness of intravenous iron treatment vs standard care in patients with heart failure and iron deficiency: a randomised, open-label multicentre trial (IRONMAN); Purpose: To establish in patients with chronic heart failure and iron deficiency whether",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "IRONMAN"
+      },
+      {
+      "id": "f167e20A-8630-5A92-B0A2-bD8fC4d7aB2c",
+      "name": "HOT (previously NEON)",
+      "description": "Does Home Oxygen Therapy (HOT) in Addition to Standard Care Reduce Disease Severity and Improve Symptoms in Patients with Chronic Heart Failure?;  What is the role of home oxygen therapy in the management of patients with CHF? This study aims to address t",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "HOT (previously NEON)"
+      },
+      {
+      "id": "b1a3ADe5-d8Eb-43Ba-AF8C-46dFcD3A215a",
+      "name": "EMPEROR-Reduced Study (1245.121)",
+      "description": "A phase III randomised, double-blind trial to evaluate efficacy and safety of once daily empagliflozin 10 mg compared to placebo, in patients with chronic Heart Failure with reduced Ejection Fraction(HFrEF).  This randomised, double-blind, multi-national,",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "EMPEROR-Reduced Study (1245.121)"
+      },
+      {
+      "id": "F1D562c8-15Ce-1D2f-bBCa-b7EBA53FCdc6",
+      "name": "EMPEROR-Preserved Study (1245.110)",
+      "description": "A phase III randomised, double-blind trial to evaluate efficacy and safety of once daily empagliflozin 10 mg compared to placebo, in patients with chronic Heart Failure with preserved Ejection Fraction (HFpEF).; Purpose: A phase III randomised, double-bli",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "EMPEROR-Preserved Study (1245.110)"
+      },
+      {
+      "id": "FeB61bcE-fDe4-6AD2-b82C-7BEbF0328e64",
+      "name": "CCRN 2238 (Heart failure) - RELAX 2 - Serelaxin when added to standard therapy in acute heart failure",
+      "description": "RELAX 2 - Serelaxin when added to standard therapy in acute heart failure; A multicenter, randomized, double-blind, placebo-controlled phase III study to evaluate the efficacy, safety and tolerability of Serelaxin when added to standard therapy in acute h",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "CCRN 2238 (Heart failure) - RELAX 2 - Serelaxin when added to standard therapy in acute heart failure"
+      },
+      {
+      "id": "B0dFab9E-B6Ab-FC91-2CB6-6F7ea52d84Ac",
+      "name": "CCRN 127 (CHF)",
+      "description": "A Multi-Center, Randomized, Double-Blind, Parallel Group, Active-Controlled Study To Evaluate The Efficacy And Safety Of LCZ696 Therapy Compared To Enalapril On Morbidity And Mortality In Patients With Chronic Heart Failure (NYHA Class II - IV) With Reduc",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CCRN 127 (CHF)"
+      },
+      {
+      "id": "dfbc926e-4ABb-Ae1C-a1cE-d509a832Efb6",
+      "name": "CARD 5650",
+      "description": "A randomized parallel-group, placebo-controlled, double-blind, event-driven, multi-center pivotal phase III clinical outcome trial of efficacy and safety of the oral sGC stimulator Vericiguat in subjects with heart failure and reduced ejection fraction (H",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CARD 5650"
+      },
+      {
+      "id": "7aA58D3f-cAC5-9EB6-9Cab-f2b8BcCA1Eea",
+      "name": "SPARK Part 1",
+      "description": "]Selfmanagement programme for improving health through Physical Activity in chRonic Kidney disease.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "SPARK Part 1"
+      },
+      {
+      "id": "54AbB3f0-cE5a-86BA-FA3d-e07bfAd52934",
+      "name": "QCKD",
+      "description": "Increasing Physical Activity in Chronic Kidney Disease : The Patient Perspective (QCKD);  Increasing Physical Activity in Chronic Kidney Disease : The Patient Perspective (QCKD)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "QCKD"
+      },
+      {
+      "id": "B4fDCe85-B53b-5429-AecE-6F1DEeC09834",
+      "name": "PINK",
+      "description": "Physical Activity, Immune Function and INflammation in Kidney Patients ; ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "PINK"
+      },
+      {
+      "id": "45f83Ba9-EbF4-B2F0-a1Fe-5aAB80241dc6",
+      "name": "PEArL",
+      "description": "Programmes for Exercise and an Active Lifestyle in Kidney Disease",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "PEArL"
+      },
+      {
+      "id": "b93C0cd5-0Dc3-13F4-b974-a8ed06F4f37D",
+      "name": "PACE-KD",
+      "description": "Participant Acceptability of Exercise in Kidney Disease.   There are ~30,000 UK renal transplant recipients (RTRs), with patient care costs less than half than for  dialysis. However, cardiovascular disease (CVD) is a major cause of morbidity and mortalit",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "PACE-KD"
+      },
+      {
+      "id": "943eC8cF-5Fa7-92B0-7c2e-46dE2Dac7FbB",
+      "name": "Motivation After Exercise in Chronic Kidney Disease: MAX CKD",
+      "description": "Motivation After Exercise in Chronic Kidney Disease: MAX CKD",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Motivation After Exercise in Chronic Kidney Disease: MAX CKD"
+      },
+      {
+      "id": "ade1F6D7-1a9F-B130-0dA9-C4Df2958F1B7",
+      "name": "I-RACE",
+      "description": "Intramuscular and Inflammatory Response to Acute Exercise in Chronic Disease (I-RACE); Chronic kidney disease patients often suffer from muscle wasting and weakness which adversely impacts quality of life, physical activity, physical functioning and morta",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "I-RACE"
+      },
+      {
+      "id": "8e650f19-5DB3-BA58-6D7F-4f1Db35C967c",
+      "name": "Exercise Training in Chronic Kidney Disease",
+      "description": "ExTra CKD; Can the addition of resistance exercise to a cardiovascular exercise programme provide muscle benefits in addition to cardiovascular benefits?  Can this combined exercise programme also improve  -exercise capacity  -physical functioning  -quali",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Exercise Training in Chronic Kidney Disease"
+      },
+      {
+      "id": "241DBc6e-DbB2-43da-f809-eFc1D8940ACa",
+      "name": "EXPLORE CKD",
+      "description": "Exploring the mechanisms of muscle wasting in CKD; Patients with Chronic Kidney Disease (CKD) suffer with muscle wasting which is an important clinical problem as it is strongly associated with morbidity and mortality and can begin very early in the disea",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "EXPLORE CKD"
+      },
+      {
+      "id": "F4c0Baf2-Ba73-450d-aA0b-AED43ea6fBC9",
+      "name": "COCO Tx",
+      "description": "COCO Tx;  Cardiovascular Risk Factors and Physical Condition in Kidney Transplant Recipients",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "COCO Tx"
+      },
+      {
+      "id": "5Dbf1B0E-3FaB-b805-3aef-Ace58D4C036F",
+      "name": "WP4 Exercise Outcome Study",
+      "description": "; Purpose: A Comprehensive Comparison of the Sensitivity of Common Exercise Outcome Measures for Chronic Obstructive Pulmonary Disease (COPD)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "WP4 Exercise Outcome Study"
+      },
+      {
+      "id": "abdCF9B7-d0f4-153C-aD7B-4E50aDdC7bec",
+      "name": "PCRN06/CCRN058 (CAD - SIGNIFY)",
+      "description": "Study assessing the morbi-mortality benefits of the If inhibitor Ivabradine in patients with coronary artery disease (SIGNIFY)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "PCRN06/CCRN058 (CAD - SIGNIFY)"
+      },
+      {
+      "id": "b52DaB0A-6C1f-f5F2-b8Df-E3e9CA5cB6F1",
+      "name": "GRAPHIC",
+      "description": "Genetic regulation of arterial pressure in humans in the community: The Graphic Study GRAPHIC",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "GRAPHIC"
+      },
+      {
+      "id": "AF19CaEe-2DFd-F4c8-8fcB-EAfCe5ca96dB",
+      "name": "GENVASC",
+      "description": "The GENVASC Study: Genetics and the Vascular Health Check Programme",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "GENVASC"
+      },
+      {
+      "id": "Ec6eBf95-cA2B-A59B-14Ba-c1962aAdDB50",
+      "name": "BRICCS",
+      "description": "Sample and Data Collection for Cardiovascular Research",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "BRICCS"
+      },
+      {
+      "id": "1C7c4Ee3-ad8f-F71d-75fE-0C5A1deFBfaE",
+      "name": "CARD 4843",
+      "description": "A phase III, double-blind, randomized placebo-controlled study to evaluate the effects of dalcetrapib on cardiovascular (CV) risk in a genetically defined population with a recent Acute Coronary Syndrome (ACS): The Dal-GenE trial;  Coronary heart disease ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CARD 4843"
+      },
+      {
+      "id": "7e1FbAcC-e3db-7ea4-f4cb-A65a39CEbD70",
+      "name": "ACtiF - RCT and parallel process evaluation (WP 3.2 and 3.3)",
+      "description": "Development and evaluation of an intervention to support Adherence to treatment in adults with Cystic Fibrosis. A randomised controlled trial and parallel process evaluation.; Cystic Fibrosis (CF) affects 10000 people in the UK. The lungs of people with C",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "ACtiF - RCT and parallel process evaluation (WP 3.2 and 3.3)"
+      },
+      {
+      "id": "95c4eabC-F589-d1E6-Bb2E-1c8DE7dbABaF",
+      "name": "Standard Care versus Triventricular Pacing in Heart Failure (STRIVE HF)",
+      "description": "A multicentre randomised control trial comparing standard cardiac resynchronisation pacing with triventricular pacing; Many patients with heart failure have problems with the electrical impulses that cause the heart to contract resulting in unsynchronised",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Standard Care versus Triventricular Pacing in Heart Failure (STRIVE HF)"
+      },
+      {
+      "id": "B9f870aD-d25f-fE3e-AC2E-21EcD478dA9F",
+      "name": "Sample and data collection for diastolic heart failure study",
+      "description": "Sample and data collection for diastolic heart failure study; Sample and data collection for diastolic heart failure study: Biomarkers for Diastolic Heart Failure",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Sample and data collection for diastolic heart failure study"
+      },
+      {
+      "id": "f7eD02bF-5b8d-Caf5-5f7F-e5F9EC24c7AD",
+      "name": "INDAPAMIDE",
+      "description": "Treatment of heart failure using indapamide : a pilot study of its effect on plasma FGF23;  Other clinical trial to study a novel intervention or randomised clinical trial to compare interventions in clinical practice",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "INDAPAMIDE"
+      },
+      {
+      "id": "fBDbc3da-fac5-5B9C-1EBA-aC85B7A4D3f2",
+      "name": "UNTOUCHED",
+      "description": "Understanding Outcomes with the EMBLEM S-ICD in Primary Prevention Patients with Low Ejection Fraction; This study assesses the 18-month incidence of inappropriate shocks in subjects implanted with the EMBLEM Subcutaneous Implantable Defibrillator (S-ICD)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "UNTOUCHED"
+      },
+      {
+      "id": "382C50a7-5b6D-56E4-bacd-F3eb956724Aa",
+      "name": "REM-HF",
+      "description": "Remote monitoring an evaluation of implantable devices for management of heart failure patients REM-HF; There is a pressing need to develop new ways of managing the rapidly increasing number of people living with heart failure in the UK. The epidemic of h",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "REM-HF"
+      },
+      {
+      "id": "2A4bCfeE-a8AF-02EA-c4AE-f6Aa0c7b514e",
+      "name": "NOAH - AFNET 6",
+      "description": "Non-vitamin K antagonist Oral anticoagulants in patients with Atrial High rate episodes; Patients with Atrial Fibrillation (irregular rhythm and frequency in the hearts atrium) (AF) are known to have an increased risk of stroke. In order to prevent stroke",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "NOAH - AFNET 6"
+      },
+      {
+      "id": "7C963F1E-9cBa-b4c7-d6C0-cDB01aEFf8b2",
+      "name": "MINERVA",
+      "description": "Multicentre Investigation of Novel Electrocardiogram Risk markers in Ventricular Arrhythmia prediction ;  Basic study involving procedures with human participants",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "MINERVA"
+      },
+      {
+      "id": "afc9A2D0-de8f-Ca2f-c34A-8bA59e6E43F2",
+      "name": "MicraTM Transcatheter Pacing System (Micra) Registry",
+      "description": "Product Surveillance Registry A  prospective, noninterventional  registry providing continuing evaluation and periodic  reporting of product safety, effectiveness and patient outcomes across Medtronic marketreleased  products within  diabetes, cardiac rhy",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "MicraTM Transcatheter Pacing System (Micra) Registry"
+      },
+      {
+      "id": "Ae34a1Cc-E214-0efB-BA87-1cC4Ffbd2a9A",
+      "name": "Linear LME-167 CARD 5494",
+      "description": "Evaluation of a Multi-Electrode Linear Type Catheter (D-1368-01-SI) for Endocardial Ablation of Patients with Persistent Atrial Fibrillation.; The purpose of this trial is to assess acute safety and performance of the Multi-electrode Linear Type Catheter ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Linear LME-167 CARD 5494"
+      },
+      {
+      "id": "fe3ECaF9-8BD5-baCD-1098-48CBD6731Ee2",
+      "name": "HOPE",
+      "description": "AV optimisation delivered with direct His bundle pacing, in patients  with heart failure, long PR without left bundle branch block: randomised multiÂ­centre clinical outcome study The His Optimised Pacing Evaluated for Heart Failure Trial (HOPEÂ­-HF); Thi",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "HOPE"
+      },
+      {
+      "id": "b17f3D42-8A0b-c8b5-2367-05c417Fd36Cf",
+      "name": "EAST - Early Treatment of Atrial Fibrillation for Stroke Prevention Trial",
+      "description": "An Investigator-driven, Prospective, Parallel-group, Randomized, Open, Blinded Outcome Assessment (PROBE-design), Multi-centre Trial for the Prevention of Stroke in High-risk Subjects with Atrial Fibrillation.; Atrial fibrillation (AF) is the most common ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "EAST - Early Treatment of Atrial Fibrillation for Stroke Prevention Trial"
+      },
+      {
+      "id": "CfFb0d9E-87c1-AC10-bAF2-ED50dac8b97F",
+      "name": "MesoTRAP feasibility study",
+      "description": "MesoTRAP: A feasibility study comparing video-assisted thoracoscopic partial pleurectomy/decortication with indwelling pleural catheter in patients with trapped lung due to malignant pleural mesothelioma designed to address recruitment and randomisation u",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "MesoTRAP feasibility study"
+      },
+      {
+      "id": "CBEFf057-C36A-BfCF-D985-D5FAd7f38e60",
+      "name": "The MaRACAS Study",
+      "description": "An observational case control study to identify the role of Microvesicles (MV) and MV derived microRNA (miRNA) in post cardiac surgery Acute Kidney Injury (AKI): The MaRACAS Study;  An observational case control study to identify the role of Microvesicles",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "The MaRACAS Study"
+      },
+      {
+      "id": "9F61cEBe-e68c-c925-9Ca1-7A9d6cF521BD",
+      "name": "REVAKI--2",
+      "description": "A FEASIBILITY STUDY TO CONSIDER THE RELATIONSHIP BETWEEN MARKERS OF RED CELL DAMAGE, INFLAMMATION AND THE RECOVERY PROCESS OF NEWBORNS REQUIRING EXTRACORPOREAL MEMBRANE OXYGENATION (ECMO) FOR PERSISTENT PULMONARY HYPERTENSION OF THE NEWBORN (PPHN); Respir",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "REVAKI--2"
+      },
+      {
+      "id": "bA9c38E4-a8bc-e4aA-c5C6-89aDb3EfCB1A",
+      "name": "Obesity Paradox and Epigenetics in Cardiac Surgery",
+      "description": "An observational case control study to identify the role of epigenetic regulation of genes responsible for energy;  This is a prospective, single-centre case control comparison of expression of target genes responsible for energy utilisation, mitochondria",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Obesity Paradox and Epigenetics in Cardiac Surgery"
+      },
+      {
+      "id": "C0cBDbaf-dD2c-1BbE-605C-2B09D1E7Ca3e",
+      "name": "Pharmacist SIMPLE Asthma Intervention",
+      "description": "Pharmacist SIMPLE Asthma Intervention; : A study to evaluate the efficacy of a SIMPLE intervention to support medicine adherence for people with difficult to control asthma",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Pharmacist SIMPLE Asthma Intervention"
+      },
+      {
+      "id": "7Aaf04D6-1a3F-6BF9-bFf7-EB928CA3F04b",
+      "name": "Pilot study investigating longer-term cardiac effects of pre-eclampsia",
+      "description": "Pilot study to confirm that a history of pre-eclampsia is associated with adverse indices of cardiac function.; We will test the hypothesis that a history of pre-eclampsia is associated with adverse indices of cardiac function.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Pilot study investigating longer-term cardiac effects of pre-eclampsia"
+      },
+      {
+      "id": "0Dc58f72-C15d-EC6A-89f1-2ca84be5Dd0E",
+      "name": "HCMR Study",
+      "description": "HCMR - Novel Predictors of Outcome in Hypertrophic Cardiomyopathy; This is a multi-centre, observational, prospective study of patients with clinically diagnosed hypertrophic cardiomyopathy, studied at baseline with collection of demographic data, clinica",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "HCMR Study"
+      },
+      {
+      "id": "7Ac40bFa-1bC0-f71b-2af1-b9BE4Ac30a16",
+      "name": "ECABG",
+      "description": "ECABG:  a Prospective European Multicenter Study on Coronary Artery Bypass Grafting  (UK title: A European Study on Coronary Artery Bypass Surgery)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "ECABG"
+      },
+      {
+      "id": "9b4F2cC6-acb5-E62B-F1e4-47F86B5cECfd",
+      "name": "CardioMEMS HF System OUS Post Approval Study",
+      "description": "CardioMEMS OUS; The purpose of this Post Approval Study (PAS) is to evaluate the use of the CardioMEMS HF System in patients with NYHA Class III (symptoms on mild exertion) Heart Failure in the setting of the NHS.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CardioMEMS HF System OUS Post Approval Study"
+      },
+      {
+      "id": "892efC0b-8a5B-6f5C-e7A9-d08aBf52eA17",
+      "name": "SURTAVI (CRN 829)",
+      "description": "CCRN 829 (SURTAVI); Surgical Replacement And Transcatheter Aortic Valve Implantation (SURTAVI)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "SURTAVI (CRN 829)"
+      },
+      {
+      "id": "2eE10FdB-b63C-F8D6-cdbB-A2BDa059CdE7",
+      "name": "GALILEO",
+      "description": "Global multicenter, open-label, randomized, event-driven, active-controlled study comparing a rivAroxaban-based  antithrombotic strategy to an antipLatelet-based strategy after transcatheter aortIc vaLve rEplacement (TAVR) to  Optimize clinical outcomes.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "GALILEO"
+      },
+      {
+      "id": "2a73Ff5d-7014-dB2D-DFf3-C6AFBe130Dac",
+      "name": "ENVISAGE",
+      "description": "EDOXABAN VERSUS STANDARD OF CARE AND THEIR EFFECTS ON CLINICAL OUTCOMES IN PATIENTS HAVING UNDERGONE TRANSCATHETER AORTIC VALVE IMPLANTATION ; Purpose:  To assess the effect of Edoxaban versus vitamin K antagonist (VKA) on net adverse clinical events (NAC",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "ENVISAGE"
+      },
+      {
+      "id": "bca5842E-06Cd-E6c2-27bD-D13CfA569e74",
+      "name": "MAP (Movement through Active Personalised engagement)",
+      "description": "Promoting physical activity through group self-management support for those with multi-morbidity: a randomised clinical trial",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "MAP (Movement through Active Personalised engagement)"
+      },
+      {
+      "id": "79C80F4f-fD5F-c85D-b261-2eb4BACc189d",
+      "name": "Format of patient education for different sociodemographic groups",
+      "description": "The influence of socio-demographic characteristics on the preferred format of patient education delivery in individuals;  Study administering questionnaires/interviews for quantitative analysis, or using mixed quantitative/qualitative methodology",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Format of patient education for different sociodemographic groups"
+      },
+      {
+      "id": "eAa53BD9-aFfe-7ac0-9fcD-dc2ae9F15B8C",
+      "name": "DRN 845 LADA",
+      "description": "A study of the Genetic Causes of Latent Autoimmune Diabetes in Adults (LADA);  A study of the Genetic Causes of Latent Autoimmune Diabetes in Adults (LADA)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN 845 LADA"
+      },
+      {
+      "id": "510d6FeD-0bEB-1D52-a0e6-7Dd9acFb8f35",
+      "name": "DRN 763 (Diabetes screening & prevention for people with learning disabilities)",
+      "description": "Screening for glucose intolerance and development of a lifestyle education programme for prevention of Type 2 diabetes in a population with learning disabilities;  Screening for glucose intolerance and development of a lifestyle education programme for pr",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 763 (Diabetes screening & prevention for people with learning disabilities)"
+      },
+      {
+      "id": "CED2b36d-84ab-c852-FC7c-7aDbEBF9532e",
+      "name": "DRN739 (RAMADAN)",
+      "description": "A double blind, double dummy, randomised, multi-centre study to assess the tolerability and efficacy profile of vildagliptin compared to gliclazide as dual therapy with metformin in Muslim patients with type 2 diabetes fasting during Ramadan",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN739 (RAMADAN)"
+      },
+      {
+      "id": "D2aA830d-FAdC-B2ba-0C6F-9eabEc7D62B4",
+      "name": "DRN 709 (PROPELS)",
+      "description": "The Promotion of Physical Activity through structured education with differing levels of ongoing support for those with prediabetes (PROPELS): randomised controlled trial in a diverse multi-ethnic community",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 709 (PROPELS)"
+      },
+      {
+      "id": "AcECFa8e-3208-B69e-D361-2F1Ea4bBe796",
+      "name": "DRN 663 (Hypoglycaemia in People with Type 2 Diabetes Mellitus in Primary Care)",
+      "description": "Study to Determine the Frequency and Associated Predictors of Hypoglycaemia in People with Type 2 Diabetes Mellitus Managed in Primary Care",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN 663 (Hypoglycaemia in People with Type 2 Diabetes Mellitus in Primary Care)"
+      },
+      {
+      "id": "8ec6E7f2-Da80-fC15-90Ea-fAaF6c0723b8",
+      "name": "Baby Steps - Walking away from Gestational Diabetes",
+      "description": "A randomised controlled trial to investigate the effect of a structured education programme on women who have had gestational diabetes and are at risk of developing type 2 diabetes.; Purpose: To assess the effectiveness of a structured education programme",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Baby Steps - Walking away from Gestational Diabetes"
+      },
+      {
+      "id": "92b815DF-c41b-E6a3-fdaF-0EFDdcb9624a",
+      "name": "ADDITION - 10 year follow up",
+      "description": "Anglo-Danish-Dutch study of Intensive Treatment of people with Newly diagnosed diabetes in primary care (ADDITION): ten-year follow-up; People with diabetes have an increased risk of developing cardiovascular disease (heart attack or stroke). However, the",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "ADDITION - 10 year follow up"
+      },
+      {
+      "id": "3CAafFe1-bDC0-8f0C-1A96-64cEB1d8aFbA",
+      "name": "3708 CARD e-ULTIMASTER Registry",
+      "description": "Prospective,single-arm, multi-centre, observational registry to further validate safety and efficacy of the ultimaster DES in real-world patients.; The eultimaster registry is an observational study that will collect clinical data on patients with coronar",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "3708 CARD e-ULTIMASTER Registry"
+      },
+      {
+      "id": "37aCAB45-3c06-cC2B-5189-6D52e73bFadC",
+      "name": "Characterising Phenotypes of Mtb Infection (ISIT-TB)",
+      "description": " A Novel Whole Blood Transcriptomic Signature to Characterise Phenotypes of Mycobacterium Tuberculosis Infection (ISIT-TB)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Characterising Phenotypes of Mtb Infection (ISIT-TB)"
+      },
+      {
+      "id": "D317Ffa5-9ef4-1f43-fd02-B02ec863bd4E",
+      "name": "CAVALIER",
+      "description": "CAVALIER: Perceval S valve clinical trial for extended CE mark",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "CAVALIER"
+      },
+      {
+      "id": "eEA48cda-dBF1-7baC-dAe9-cF5BefDb16E2",
+      "name": "TMAO levels and CAD Risk",
+      "description": "TMAO levels and CAD Risk;  Evaluation of Blood Trimethylamine Acid N-Oxide (TMAO) levels as a risk factor for Coronary Artery Disease (CAD) in South Asians vs. Caucasians",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "TMAO levels and CAD Risk"
+      },
+      {
+      "id": "B40EcAfF-f07e-3e6f-a6F1-CB9cE6Ab3ed0",
+      "name": "Effects of hospitalisation on acute exacerbations of airways disease",
+      "description": "Effects of hospitalisation on acute exacerbations of airways disease; Basic Science study involving procedures with human participants",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Effects of hospitalisation on acute exacerbations of airways disease"
+      },
+      {
+      "id": "24DE6cbd-b2B1-F267-4c1d-f0A7d3aB895D",
+      "name": "FOAMI",
+      "description": "Investigation of the effect of Myocardial Infarction on Platelet-Induced Monocyte Phenotype and Foam Cell Formation; Does platelet activation due to myocardial infarction (heart attack) lead to changes in monocyte behaviour and render them more able to fo",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "FOAMI"
+      },
+      {
+      "id": "Cad83bfD-6fFD-dBAD-BA63-1db9f75CF403",
+      "name": "Asthma-Tailored Pulmonary Rehabilitation",
+      "description": " A feasibility study to inform the development of a multicentre randomised controlled trial of an asthma-tailored pulmonary rehabilitation programme versus usual care for individuals with severe asthma.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Asthma-Tailored Pulmonary Rehabilitation"
+      },
+      {
+      "id": "62D04eab-e251-Cdcb-A6c1-19A5da360eCB",
+      "name": "The effects of reducing prolonged sitting bouts with regular light upright movement breaks on glucose regulation in individuals at high risk of or with type 2 diabetes.",
+      "description": "The effects of reducing prolonged sitting bouts with regular light upright movement breaks on glucose regulation in individuals at high risk of or with type 2 diabetes.; Purpose: To investigate whether the reduction in postprandial plasma glucose in respo",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "The effects of reducing prolonged sitting bouts with regular light upright movement breaks on glucose regulation in individuals at high risk of or with type 2 diabetes."
+      },
+      {
+      "id": "6D3bE8a4-9e67-9Ea1-DB83-eC7FdDfb5c4A",
+      "name": "The PODD Study",
+      "description": " The PODD Study: The PeriOdontal Disease and Diabetes Study: An opportunistic screening study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "The PODD Study"
+      },
+      {
+      "id": "59Ab01f2-C352-71Cd-0ad8-Fd8C23DA7c6f",
+      "name": "The `Can Do Ramadan' Study",
+      "description": " A Randomised Controlled Trial for People with Established Type 2 Diabetes during Ramadan: Canagliflozin (InvokanaT) vs. standard dual therapy regimen: The `Can Do Ramadan' Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "The `Can Do Ramadan' Study"
+      },
+      {
+      "id": "4E0C1DeA-8fEb-3A19-8C63-8B9Df2614E5d",
+      "name": "The 'Arming your Health' study",
+      "description": "Investigating whether breaking up sedentary behaviour with seated upper body contractile activity can regulate an individual's metabolic health",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "The 'Arming your Health' study"
+      },
+      {
+      "id": "FD91b8cA-7EFB-7620-952d-187bac53fB0d",
+      "name": "TEAM GB",
+      "description": "TEAM GB: The Exercise and Gut Bacteria Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "TEAM GB"
+      },
+      {
+      "id": "9fE3daF0-8CFd-8adb-FfbD-1b2BAe0EFC6f",
+      "name": "Take Control",
+      "description": "A 24 week, Multicentre, Randomized, Open Label, 2 ARm Parallel-group study evaluating the Efficacy and Safety of Patient - versus Physician-managed Titration of Insulin Glargine U300 in Type 2 Diabetes Mellitus; The purpose of this study is to compare the",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Take Control"
+      },
+      {
+      "id": "904bfCDB-3f6e-92f1-92E7-42CDB8c19edF",
+      "name": "STRIVE Study",
+      "description": "Effectiveness and cost of integrating a protocol with use of liraglutide 3.0mg into an obesity service (STRIVE Study);  The primary objective will be to compare the proportion of participants with severe and complicated obesity (defined as BMI ?35 kg/m2 w",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "STRIVE Study"
+      },
+      {
+      "id": "dBC5fF41-9a0b-6fB1-eE0c-e8A19a5cd7FE",
+      "name": "Sotagliflozin vs. Placebo added to insulin +/- other OADs in T2DM",
+      "description": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, 52-week Multicenter Study to Evaluate the Efficacy and Safety of Sotagliflozin in Patients with Type 2 Diabetes Who Have Inadequate Glycemic Control on Basal Insulin Alone or in Addition to O",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Sotagliflozin vs. Placebo added to insulin +/- other OADs in T2DM"
+      },
+      {
+      "id": "93DCeF50-84DE-60fc-4e27-cE538feB69D7",
+      "name": "SEESAW",
+      "description": "SGLT2 Inhibitor Empagliflozin Effects on Appetite and Weight Regulation: A randomised double blind placebo controlled trial (SEESAW); Purpose: To determine the effects of empagliflozin on energy expenditure and change in total weight and body composition.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "SEESAW"
+      },
+      {
+      "id": "ed58DFE3-a621-c71a-fe1B-D0398Abed65F",
+      "name": "PRE-STARt Risk Tool",
+      "description": "PREvention STrategies for Adolescents at Risk of diabetes - validation of a risk tool for young people aged 12 - 14 years;",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "PRE-STARt Risk Tool"
+      },
+      {
+      "id": "728d0a9C-DC9e-f90C-F1Ce-60B3C4FDfA2E",
+      "name": "Pre-Start Phase 2",
+      "description": "Pre-Start Phase 2;  Prevention strategies for adolescents at risk of diabetes - A randomised controlled trial of an interactive family-based  lifestyle programme",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Pre-Start Phase 2"
+      },
+      {
+      "id": "91Ce0cAa-513e-0265-6De8-5A2e36890CDf",
+      "name": "Padd",
+      "description": "A multicentre study to investigate the performance of the Padd",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Padd"
+      },
+      {
+      "id": "405eA7Ea-C7Ff-E0ce-274e-7C9c04651b38",
+      "name": "Physical Activity after Cardiac Events (PACES)",
+      "description": "Developing and evaluating an education programme aimed at increasing physical activity in individuals with diagnosed coronary heart disease: a randomised controlled trial; The main aim of the study is to implement an acceptable and cost-effective educatio",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Physical Activity after Cardiac Events (PACES)"
+      },
+      {
+      "id": "ba9306cF-Fca6-E3eb-8E5C-5A42e63bFfdD",
+      "name": "Lexicon 310",
+      "description": "A phase 3. randomized, double-blind,placebo-group, multicenter study to evaluate the efficacy, safety, and tolerability of LX4211 as adjunct therapy in adult patients with type 1 diabetes mellitus who have inadequate glycemic control with insulin therapy",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Lexicon 310"
+      },
+      {
+      "id": "fA8B729a-c718-0e8D-b4f5-ECf45Ba3201A",
+      "name": "IGLOOS",
+      "description": "The impact of glucose lowering therapies including Dipeptidyl peptidase-4 inhibitor on circulating endothelial progenitor cells (EPCs) and its mobilising factor Stromal Derived Factor1; The impact of glucose lowering therapies including Dipeptidyl peptida",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "IGLOOS"
+      },
+      {
+      "id": "b7f430ed-3FAb-F40f-f4De-7fd32Ca1Dc4F",
+      "name": "The effect of a single bout of high-intensity interval training on glucose responses in white European and south Asian patients at risk of type 2 diabetes.",
+      "description": "The effect of a single bout of high-intensity interval training on glucose responses in white European and south Asian patients at risk of type 2 diabetes. Clinical trial to study a novel intervention or randomised clinical trial",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "The effect of a single bout of high-intensity interval training on glucose responses in white European and south Asian patients at risk of type 2 diabetes."
+      },
+      {
+      "id": "9ED3aA26-9306-cf61-FAB1-2b61FC807D3B",
+      "name": "Girls Active",
+      "description": "n/a",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Girls Active"
+      },
+      {
+      "id": "ADe7d084-Ffbe-B4CE-C2bd-34E78e92cD0B",
+      "name": "Exploring views and evaluating a web-based intervention",
+      "description": "Exploring the views of people with type 2 diabetes and healthcare professionals on web-based interventions that aim to improve wellbeing in type 2 diabetes and evaluating the final design of a web-based intervention.; Purpose: To explore the views of peop",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Exploring views and evaluating a web-based intervention"
+      },
+      {
+      "id": "C8e476Fa-b0c5-7db9-62a7-52Ac813F7daB",
+      "name": "Evaluating the goal setting session of DESMONd V1",
+      "description": "Process and outcome evaluation of the goalsetting compenent of a type 2 diabetes group self-management programme; Assessing the goal setting component of DESMOND, a structured diabetes self management  education(DSME) programme for people newly diagnosed.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Evaluating the goal setting session of DESMONd V1"
+      },
+      {
+      "id": "8E9d357D-63E2-0Fed-31FD-f5Ad63e1Ca87",
+      "name": "Embedding Diabetes Education - (RCT)",
+      "description": "Evaluating the impact of an intervention to increase uptake of self-management education programmes for Type 2 Diabetes in primary care: A wait-list cluster randomised controlled trial;  The Embedding Package is designed to increase uptake in primary care",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Embedding Diabetes Education - (RCT)"
+      },
+      {
+      "id": "961d4Ef7-DE2F-cF3b-39eF-BC5291e7b4F6",
+      "name": "Embedding Diabetes Education (Feasibility study)",
+      "description": "Increasing uptake of self-management education programmes for Type 2 Diabetes in multi-ethnic primary care settings: A feasibility study  ; Purpose: To implement an Embedding Package to increase the uptake to self-management education programmes for type ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Embedding Diabetes Education (Feasibility study)"
+      },
+      {
+      "id": "36ae82B4-9d8c-af53-E7Fa-B7e03Db8529C",
+      "name": "DRN2710 (AWARD-9)",
+      "description": "A Randomized, Double-Blind Trial Comparing the Effect of Dulaglutide 1.5 mg with Placebo on Glycemic Control in Patients with Type 2 Diabetes on Basal Insulin Glargine   (AWARD-9: Assessment of Weekly AdministRation of LY2189265 in Diabetes â€“ 9)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN2710 (AWARD-9)"
+      },
+      {
+      "id": "94b678e5-64E9-1eFE-D6e0-EF8CDfA97B20",
+      "name": "DRN2661 (LixiLan-O)",
+      "description": "A randomized, 30 week, active-controlled, open-label, 3-treatment arm,parallel-group multicenter study comparing the efficacy and safety of insulinglargine/ lixisenatide fixed ratio combination to insulin glargine and lixisenatide alone on top of metformi",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN2661 (LixiLan-O)"
+      },
+      {
+      "id": "eDE82073-41ec-28F5-E162-bCA782e3Da04",
+      "name": "DRN2650 (210225)",
+      "description": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, 26 Week Multicenter Study With A 26-Week Extension To Evaluate The Efficacy And Safety Of Ertugliflozin Monotherapy In The Treatment Of Subjects With Type 2 Diabetes Mellitus And Inadequate Glycemic",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN2650 (210225)"
+      },
+      {
+      "id": "dD475fbc-E2CF-0e16-810D-9Be3cD16aA8E",
+      "name": "DRN2487 (CANVAS-R)",
+      "description": "A Randomised, Multi-Centre, Double-Blind, Parallel, Placebo-Controlled Study of the Effects of Canagliflozin on Renal Outcomes in Adult Subjects with Type 2 Diabetes Mellitus",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN2487 (CANVAS-R)"
+      },
+      {
+      "id": "FbE27deB-A8e7-fBA6-7056-fcE9FDC3582A",
+      "name": "DRN2373 (CARMELINA)",
+      "description": "A multicenter, international, randomized, parallel group, double blind, placebo-controlled CArdiovascular Safety & Renal Microvascular outcomE with LINAgliptin, 5 mg once daily in patients with type 2 diabetes mellitus at high vascular risk. CARMELINA",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN2373 (CARMELINA)"
+      },
+      {
+      "id": "3f781Ce9-e4ca-a01C-deCB-61EFae05B79A",
+      "name": "DRN2312",
+      "description": "Multiple dose trial examining dose range, escalation and efficacy of oral semaglutide (NNC0113-0217) in subjects with type 2 diabetes",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN2312"
+      },
+      {
+      "id": "fE08a235-E084-D1ea-2f0c-c1FDE32C8f45",
+      "name": "DRN2292 (GWDM1302)",
+      "description": "A randomised, double blind, placebo controlled, parallel group, dose ranging study of GWP42004 as add on to metformin in the treatment of participants with Type 2 diabetes",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN2292 (GWDM1302)"
+      },
+      {
+      "id": "EdCe39A0-D4b0-e2ac-Ab7a-B2Eceb4Ca0fF",
+      "name": "DRN 826 LYDIA study",
+      "description": "Impact of liraglutide on cardiac function and structure in young adults with type 2 diabetes: an open lable, randomised active-comparator trial (LYDIA); Impact of liraglutide on cardiac function and structure in young adults with type 2 diabetes: an open ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 826 LYDIA study"
+      },
+      {},
+      {
+      "id": "6c9F8Db0-fcEe-7df0-DAbB-92dbF0C5D876",
+      "name": "DRN 780 (INFLAME)",
+      "description": "DRN 780 (INFLAME); A comparison of subcutaneous and visceral adipose tissue inflammation in South Asian and white European men",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN 780 (INFLAME)"
+      },
+      {
+      "id": "d20976Ee-40E7-9b4a-0B63-38bDF16fcEBd",
+      "name": "DRN706 (GETGOAL DUO-2)",
+      "description": "A randomized, open-label, active-controlled, 3-arm parallel-group, 26-week study comparing the efficacy and safety of lixisenatide to that of insulin glulisine once daily and insulin glulisine three times daily in patients with Type 2 diabetes insufficien",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN706 (GETGOAL DUO-2)"
+      },
+      {
+      "id": "f10Aa4Bd-71C2-f2bE-87Cc-E61Fec85f9aD",
+      "name": "DRN 679 (DESMOND-Ongoing Study)",
+      "description": "To test an integrated approach for promoting effective selfmanagement  in people with established Type 2 Diabetes Mellitus (T2DM) ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN 679 (DESMOND-Ongoing Study)"
+      },
+      {
+      "id": "2b4961E0-d87a-3e94-Af40-D76c18a29504",
+      "name": "DRN 678 (DESMOND Foundation Study)",
+      "description": "A randomised controlled trial of the DESMOND Foundation programme for people with established Type 2 diabetes in a multiethnic population in Leicester and South Birmingham",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN 678 (DESMOND Foundation Study)"
+      },
+      {
+      "id": "D6fc8a90-3485-Df0e-aceC-D56074A8c3bC",
+      "name": "DRN 668 (SUCCESS - Interviews sub-study)",
+      "description": "Structured Education Programme to Improve Cardiovascular Risk in Women with Polycistic Ovary Syndrome - Interviews sub-study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN 668 (SUCCESS - Interviews sub-study)"
+      },
+      {
+      "id": "ab15F32C-eB7A-49df-A6ec-b7Cf5aE91D4c",
+      "name": "DRN 667 (SUCCESS RCT sub-study)",
+      "description": "StructUred eduCation programme to improve Cardiovascular Risk in womEn with polycyStic ovary Syndrome - RCT sub-study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 667 (SUCCESS RCT sub-study)"
+      },
+      {
+      "id": "deD57093-baEf-B95E-3eCA-2c61De8Bb0fF",
+      "name": "DRN 650 (SUCCESS study)",
+      "description": "StructUred eduCation programme to improve Cardiovascular Risk in womEn with polycyStic ovary Syndrome",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN 650 (SUCCESS study)"
+      },
+      {
+      "id": "b2aD5A07-De21-e869-Bb94-2A8F465EBD7f",
+      "name": "DRN 640 (SWEET-Heart study)",
+      "description": "Screening White Europeans and Ethnic South Asians for glucose intolerence following heart attack (The SWEET-Heart study)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 640 (SWEET-Heart study)"
+      },
+      {
+      "id": "E97A8aB5-62F3-934d-74AB-fEc1dba6958C",
+      "name": "DRN 626",
+      "description": "Efficacy and safety of liraglutide versus placebo as add-on to existing diabetes medication in subjects with type 2 diabetes and moderate renal impairment; A 26-week double-blind placebo-controlled, randomised, multicentre, multi-national, parallel-group ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN 626"
+      },
+      {
+      "id": "A9853aDC-bFEe-F853-BEbc-2a98F1DBEcb5",
+      "name": "DRN622 (The IMAGINE 4 Study)",
+      "description": "The Impact of LY2605541 versus Insulin Glargine for Patients with Type 2 Diabetes Mellitus Advanced to Multiple Injection Bolus Insulin with Insulin Lispro: a Double-Blind, Randomized, 26 Week Study: The IMAGINE-4 Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN622 (The IMAGINE 4 Study)"
+      },
+      {
+      "id": "B28c3fa6-B947-7a02-aA8E-d51FeD04bf3a",
+      "name": "DRN621 (The IMAGINE 3 Study)",
+      "description": "The Impact of LY2605541 versus Insulin Glargine for Patients with Type 1 Diabetes Mellitus Treated with Preprandial Insulin Lispro: a Double-Blind, Randomized, 52 Week Study: The IMAGINE-3 Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN621 (The IMAGINE 3 Study)"
+      },
+      {
+      "id": "e83da1b7-d589-FEd8-A96D-C5F9AfdEe683",
+      "name": "DRN 608 (VITALITY)",
+      "description": "Can Vitamin D Replacement Reduce Insulin resistance In South Asians with Vitamin D Deficiency?; This study will test the hypothesis that 6 months of periodic high dose Vitamin D3 replacement (200,000 and 100,000 units cholecalciferol, oral liquid drops at",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DRN 608 (VITALITY)"
+      },
+      {
+      "id": "F14f5dCB-14a6-20D9-4b38-B6bC0F73eDdE",
+      "name": "DRN594 (The IMAGINE-2 Study)",
+      "description": "A Comparison of LY2605541 Versus Insulin Glargine as Basal Insulin Treatment in Combination with Oral Anti-Hyperglycemia Medications in Insulin Na",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN594 (The IMAGINE-2 Study)"
+      },
+      {
+      "id": "f4Bb12a9-C3E1-cCf7-fF31-5ab2CcdB604f",
+      "name": "DRN556 (Treat 4 Ramadan)",
+      "description": "TREAT 4 Ramadan. A Randomised Controlled Trial for People with Established Type 2 Diabetes during Ramadan Liraglutide vs. a Sulphonylurea or Pioglitazone",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN556 (Treat 4 Ramadan)"
+      },
+      {
+      "id": "d4fa32eE-9e47-0FB4-1Fc7-AFB801C2375b",
+      "name": "DRN464",
+      "description": "An extension trial to NN1250-3585 (DRN356) investigating safety and efficacy of NN1250 compared to insulin detemir in subjects with type 1 diabetes mellitus in a basal/bolus treatment regimen",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN464"
+      },
+      {
+      "id": "fC7Db3ce-69ef-9eA5-ACcF-C4F31ac8EA9B",
+      "name": "DRN305",
+      "description": "A randomised, multicenter, double-blind, parallel, placebo-controlled study of the effects of JNJ-28431754 on cardiovascular outcomes in adult subjects with type 2 diabetes subjects with type 2 diabetes mellitus;  A randomised, multicenter, double-blind, ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN305"
+      },
+      {
+      "id": "E4edC52B-Edac-ba40-Dc6b-0fdcB3D64ab2",
+      "name": "DRN251 (TECOS)",
+      "description": "A Randomized, Placebo Controlled Clinical Trial to Evaluate Cardiovascular Outcomes after Treatment with Sitagliptin in Patients with Type 2 Diabetes Mellitus and Inadequate Glycemic Control; This is a clinical trial designed to assess the cardiovascular ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN251 (TECOS)"
+      },
+      {
+      "id": "df826BAE-2cdb-65D8-2A7B-35bdCD8Ace46",
+      "name": "DRN 239 LETS PREVENT",
+      "description": "A community based primary prevention programme for Type 2 Diabetes integrating identification, lifestyle intervention and community services for prevention (RCT). N.B-this is part of a programme grant award which is the same NIHR programme grant as DRN131",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 239 LETS PREVENT"
+      },
+      {
+      "id": "Aac78419-CbF2-58E1-B029-67BdEA41F8a2",
+      "name": "DRN108 (Genetics of Type 2 Diabetes in Multi-Ethnic populations)",
+      "description": "A DNA resource to facilitate the investigation of genetic susceptibility to Type 2 Diabetes and its microvascular/macrovascular complications in the UK-resident South Asians",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN108 (Genetics of Type 2 Diabetes in Multi-Ethnic populations)"
+      },
+      {
+      "id": "3DA78c49-1dEb-f0B6-538D-fa234e1DEd9B",
+      "name": "DRN 094 (ADDRESS)",
+      "description": "After Diagnosis Diabetes Research Support System",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN 094 (ADDRESS)"
+      },
+      {
+      "id": "FDC0E7A5-Fe67-6abF-05fD-8ebA64d5F310",
+      "name": "DRN 022 ADDITION-Leicester (LRN SEM)",
+      "description": "A randomised trial of the cost effectiveness of screening and intensive multi-factorial intervention for Type 2 diabetes - The ADDITION-Leicester study; Purpose: To assess the fesibilty of screening and multi-factorial intensive intervention in ethnic min",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DRN 022 ADDITION-Leicester (LRN SEM)"
+      },
+      {
+      "id": "9c6EA20B-BF39-FcDA-C1D0-3c78Fa5dE16D",
+      "name": "DIAB 5013",
+      "description": "A real-world, point of care, randomized, 2-arm, open, 52-week study to evaluate the effect of a digital disease management support tool in patients with type 2 diabetes mellitus; Purpose: To evaluate the effect of a smart phone- and web portal-based digit",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DIAB 5013"
+      },
+      {
+      "id": "c9e5A4d2-Cc2D-498c-daD4-b45196E0a3BC",
+      "name": "DIAB 4831",
+      "description": "Efficacy and long-term safety of oral semaglutide versus sitagliptinin subjects with type 2 diabetes; NN99244222  is a randomised, doubleblind,  doubledummy,  active controlled, parallelgroup,  multicentre, multinational,  fourarmed  study comparing the e",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DIAB 4831"
+      },
+      {
+      "id": "dC5F03c8-AB6E-0D86-fEC2-EC65Bf793ca2",
+      "name": "DIAB 4826",
+      "description": "A Phase 3, Randomized, Double-blind, Placebocontrolled, Parallel-group, Multicenter Study to Evaluate the Net Clinical Benefit of Sotagliflozin as Adjunct to Insulin Therapy in Type 1 Diabetes; ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DIAB 4826"
+      },
+      {
+      "id": "Bab57fCA-Adb8-1f24-FE4A-dF14e53c9AB2",
+      "name": "DIAB 4389",
+      "description": "A Phase III, randomised, double blind, placebo-controlled,parallel group, efficacy, safety and tolerability trial of once daily, oral doses of Empagliflozin as Adjunctive to inSulin thErapy over 26 weeks in patients with Type 1 Diabetes Mellitus (EASE-3)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "DIAB 4389"
+      },
+      {
+      "id": "Efbc8a7e-bca1-c0EA-Fe1A-5EF92bA831f6",
+      "name": "DIAB 3771",
+      "description": "A Phase III, randomised, double blind, placebo-controlled, parallel group, efficacy, safety and tolerability trial of Empagliflozin as Adjunctive to insulin over 52 weeks in patients with Type 1 DiabeteS MEllitus (EASE-2)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "DIAB 3771"
+      },
+      {
+      "id": "0Fda5eA9-01ae-C0Aa-E4Ab-8f567A0CecD4",
+      "name": "Declining structured diabetes education",
+      "description": "Exploring patients with Type 1 diabetes lack of engagement with structured diabetes education in order to enhance future service provision; Structured diabetes education (SDE) is widely regarded as the cornerstone of effective self-management.  Current ap",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Declining structured diabetes education"
+      },
+      {
+      "id": "10aefbE8-7cA6-d43f-2d8b-e26EAd790F85",
+      "name": "Chronotype of Patients with Type 2 Diabetes and Effect on Glycaemic Control: The CODEC Study",
+      "description": " To investigate whether an evening-chronotype is associated with higher levels of HbA1c in those with established T2DM compared to a morning-chronotype, as defined by the composite morningness scale (CMS)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Chronotype of Patients with Type 2 Diabetes and Effect on Glycaemic Control: The CODEC Study"
+      },
+      {
+      "id": "b0FBa6cf-cdfC-DEbc-8eE1-deB31b9CFaA8",
+      "name": "A Safer Ramadan",
+      "description": "Evaluating the Impact and Acceptability of 'A Safer Ramadan' Education Programme: a structured approach that addresses safer observance of Ramadan in Muslim patients with Type 2 diabetes; Interviews have been carried out with various stakeholders involved",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "A Safer Ramadan"
+      },
+      {
+      "id": "ef1E50Ca-fB01-afA5-b803-3d24CaeE5Db7",
+      "name": "Are metabolic responses to sitting/light breaks mediated by fitness?",
+      "description": "n/a",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Are metabolic responses to sitting/light breaks mediated by fitness?"
+      },
+      {
+      "id": "E7e8d3Ff-87AE-5AC8-416b-8BdA09Fa4b1C",
+      "name": "BASIL-3",
+      "description": "Multi-centre randomised controlled trial of clinical and cost-effectiveness of drug coated balloons, drug eluting stents and plain balloon angioplasty with bail-out bare metal stent revascularisation strategies for severe limb ischaemia due to atheroscler",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "BASIL-3"
+      },
+      {
+      "id": "f2E1Ad3F-8C4E-a4cC-16AC-FE3C12eB59c0",
+      "name": "BASIL-2",
+      "description": "Bypass vs. Angioplasty in Severe Ischaemia of the Leg-2 (BASIL-2);  Multi-centre randomised controlled trial to compare the clinical and cost-effectiveness of a `vein bypass first' with a `best endovascular first' revascularisation strategy for severe lim",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "BASIL-2"
+      },
+      {
+      "id": "6b8fEAd5-25C6-92f7-AcB8-e42F79ab58d3",
+      "name": "Analysis of peripheral blood ILC2s/Th2 cells in response to ANB020",
+      "description": "Analysis of peripheral blood ILC2s/Th2 cells in response to ANB020; Purpose: To investigate whether treatment with ANB020, a drug that targets IL-33 (an inflammatory mediator in asthma) alters levels of Basophils, Th2 cells or innate lymphoid type 2 cells",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Analysis of peripheral blood ILC2s/Th2 cells in response to ANB020"
+      },
+      {
+      "id": "C917Bb4e-D0Ae-c3CB-c1F8-46df0e17D5C9",
+      "name": "CYCLE-HD",
+      "description": "CYCLE-HD: Improving cardiovascular health in dialysis patients using a structured programme of exercise.; Purpose: To investigate the effect of a six month programme of intradialytic exercise on cardiovascular structure and function.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "CYCLE-HD"
+      },
+      {
+      "id": "e5D604cC-f5DC-aF5B-a40C-B3a2fCebF701",
+      "name": "DRN516",
+      "description": "A Phase 2, randomised, double-blind, placebo-controlled, parallel group, multi-center study to evaluate the efficacy and safety of once-daily administration of phosphodiesterase 5 inhibitor (PF-00489791)  in adults with type 2 diabetes and overt nephropat",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "DRN516"
+      },
+      {
+      "id": "e8D42a5c-7B52-67da-5796-7456Bbd3C0fE",
+      "name": "VOLCANO-2",
+      "description": "A DOUBLE-BLIND, RANDOMISED, PLACEBO CONTROLLED STUDY OF THE EFFICACY AND SAFETY OF THREE DOSES OF ORVEPITANT IN PATIENTS WITH CHRONIC REFRACTORY COUGH",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "VOLCANO-2"
+      },
+      {
+      "id": "708e1962-FE6B-7946-4Ced-208BAEedf1C5",
+      "name": "Study to evaluate a mepolizumab autoinjector in severe asthma",
+      "description": "An open-label, single arm, repeat dose, multi-centre study to evaluate the use of an autoinjector for the subcutaneous administration of mepolizumab in subjects with severe eosinophilic asthma",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Study to evaluate a mepolizumab autoinjector in severe asthma"
+      },
+      {
+      "id": "A1Ecd8Fb-7dBc-5B7a-4309-CB698adc3A15",
+      "name": "SoMOSA: Study of Mechanisms of Action of Omalizumab in Severe Asthma.",
+      "description": "SoMOSA: Study of Mechanisms of Action of Omalizumab in Severe Asthma",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "SoMOSA: Study of Mechanisms of Action of Omalizumab in Severe Asthma."
+      },
+      {
+      "id": "bd120e6A-50EF-f6Ce-E8ef-174FDEabdCce",
+      "name": "RESP 5262",
+      "description": "AF219-012: A 12-Week Study to Assess the Efficacy and Safety of AF-219 in Subjects with Treatment Refractory Chronic Cough",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "RESP 5262"
+      },
+      {
+      "id": "8D5Af146-fF2B-CbE3-B83b-eb1Bf20EAdD5",
+      "name": "RESP 4446",
+      "description": "A 52-week, multicenter, randomized, double-blind, placebo-controlled study to assess the efficacy and safety of QAW039 when added to existing asthma therapy in patients with uncontrolled severe eosinophilic asthma",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "RESP 4446"
+      },
+      {
+      "id": "179A30E5-dD52-D9f8-EfbD-97EA48eFd6a0",
+      "name": "RESP 3808 (Asthma)",
+      "description": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group study to assess the efficacy, safety, and pharmacokinetics of BI 655066, compared to placebo, administered subcutaneously in patients with uncontrolled severe asthma.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "RESP 3808 (Asthma)"
+      },
+      {
+      "id": "Cfb2e03A-Ba18-EB5c-C8A3-DE861edA549B",
+      "name": "RESP 3600 (Asthma)",
+      "description": "A 52-week, multicentre,randomised, double-blind, parallel group, placebo controlled, phase 3 study to evaluate the efficacy and safety of tralokinumab in adults and adolescents with asthma inadequately controlled on inhaled corticosteroids plus long-actin",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "RESP 3600 (Asthma)"
+      },
+      {
+      "id": "d2F48efE-8DFA-3Df0-82ae-5f3aCeBA6d14",
+      "name": "Exploring Asthma Exacerbation in Mepolizumab Treated Patients",
+      "description": "Exacerbation Profile in Patients on Mepolizumab for Severe Refractory Eosinophilic Asthma - an Exploratory Study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Exploring Asthma Exacerbation in Mepolizumab Treated Patients"
+      },
+      {
+      "id": "1fe0dC93-6fFA-1793-FbEd-93b25d4AECD8",
+      "name": "Evaluation of sputum MMP9 in COPD subject",
+      "description": "A Translational Multicenter Study to Evaluate Sputum MMP9 Levels and Enzyme Activity in Subjects with Chronic Obstructive Pulmonary Disease(COPD) Compared to Matched Healthy Controls",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Evaluation of sputum MMP9 in COPD subject"
+      },
+      {
+      "id": "d1E7CA2D-Fa9e-DEd6-cD74-678352Ad0eE1",
+      "name": "Effect of Tralokinumab on Airway Inflammation in Asthma",
+      "description": " A Multicentre, Randomized, Double-blind, Parallel Group, Placebo  Controlled, 12-Week, Phase 2 Study to Evaluate the Effect of Tralokinumab  on Airway Inflammation in Adults with Asthma Inadequately Controlled on  Inhaled Corticosteroid (MESOS)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Effect of Tralokinumab on Airway Inflammation in Asthma"
+      },
+      {
+      "id": "f731E54D-20eB-Fe1c-28E4-f7Bd9bFc082E",
+      "name": "An exploratory, prospective, non-interventional study comparing biomarker signatures between patients with asthma and healthy volunteers and to investigate biomarkers associated with known phenotypes across asthma severities.",
+      "description": "Cognosco 352.2087: An exploratory, prospective, non-interventional study comparing biomarker signatures between patients with asthma and healthy volunteers and to investigate biomarkers associated with known phenotypes across asthma severities.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "An exploratory, prospective, non-interventional study comparing biomarker signatures between patients with asthma and healthy volunteers and to investigate biomarkers associated with known phenotypes across asthma severities."
+      },
+      {
+      "id": "906dB8A2-b4A0-dDa2-aC2D-2e5B47c9FA6D",
+      "name": "CCRN 2873 (COPD)",
+      "description": "A randomised, double-blind, placebo-controlled, parallel group, multicentre, phase III study to evaluate the efficacy and safety of 2 doses of benralizumab (MEDI-563) in patients with severe to very severe Chronic Obstructive Pulmonary Disease (COPD) with",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CCRN 2873 (COPD)"
+      },
+      {
+      "id": "091F3Cc7-8b9E-d8DC-27bE-8547e2E6BAC9",
+      "name": "CCRN 2856 (COPD)",
+      "description": "A Phase II, randomised, observer-blind, placebocontrolled, multi-centre study to evaluate the safety,reactogenicity and immunogenicity of GSK Biologicals",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "CCRN 2856 (COPD)"
+      },
+      {
+      "id": "90182eBD-306c-a7Bb-BE27-16f74cBd2E89",
+      "name": "Bronchial Thermoplasty Study",
+      "description": "An observational study examining airway remodelling and repair in patients with severe persistent asthma treated with bronchial thermoplasty: An imaging and immunopathological study",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Bronchial Thermoplasty Study"
+      },
+      {
+      "id": "E5B38Abc-F5Cb-CE01-D31e-96aeD3c4f78b",
+      "name": "BI 352.2069",
+      "description": "Emphysema Progression Biomarker Study - Observational study in healthy subjects and patients with COPD to assess the relationship between clinical, imaging and biomarker measurements, and progression of emphysema over two years.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "BI 352.2069"
+      },
+      {
+      "id": "5e670cDd-A0C9-0FCe-CBd3-feaD68A1dE5c",
+      "name": "Asthma/COPD III",
+      "description": "An open study to measure inflammatory cells, mediators and biomarkers from blood and sputum from healthy volunteers and asthma patients and blood, sputum and urine from COPD patients in stable disease and during acute exacerbations",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Asthma/COPD III"
+      },
+      {
+      "id": "D548e3E0-8CbE-DEcC-6FdD-0ACa26cE8eFB",
+      "name": "Airway inflammation in asthma (DAC)",
+      "description": "The value of measuring airway inflammation in the management of asthma",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Airway inflammation in asthma (DAC)"
+      },
+      {
+      "id": "C07d2aB6-CB67-38ec-5acb-472CfBea196b",
+      "name": "RASP Bronchoscopy Study",
+      "description": "Refractory Asthma Stratification Programme (RASP) Bronchoscopy Study; The principal research question is therefore: What are the molecular mechanisms that drive severe asthma in patients who do not have evidence of Th2 cytokine expression?",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "RASP Bronchoscopy Study"
+      },
+      {
+      "id": "518dB0A9-A450-abdc-c8Dd-28A0B1Ddcf9a",
+      "name": "Laminar Airflow in Severe Asthma for Exacerbation Reduction - LASER",
+      "description": "A multi-centre randomised, double blind, placebo-controlled, parallel group trial of the effectiveness of the nocturnal use of a Temperature Controlled Laminar Airflow (TLA) Device (Airsonett; Asthma affects over 5 million patients in the UK. Half a milli",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Laminar Airflow in Severe Asthma for Exacerbation Reduction - LASER"
+      },
+      {
+      "id": "Ee43CbBF-3eA0-eE4D-2D3b-850F6fEdABec",
+      "name": "Genetic causes of chronic cough and neuropathy",
+      "description": "Genetic causes of chronic cough and neuropathy;",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Genetic causes of chronic cough and neuropathy"
+      },
+      {
+      "id": "4c3E8DAF-64FD-245c-C9ae-fd0148D9C3BA",
+      "name": "Gene profiling in asthma",
+      "description": "Gene expression profiling in mild and severe asthma, eosinophilic bronchitis, and normal controls; ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "Gene profiling in asthma"
+      },
+      {
+      "id": "97fF26AD-FB38-Cdb9-FC7b-6B7Fe91cEd2a",
+      "name": "Gene expression profiling in asthma",
+      "description": "A randomised, open-labelled bronchoscopy study to assess the effects of inhaled corticosteroid (ICS) on adult healthy volunteers; Asthma is a very common disorder which causes a great deal of distress for sufferers, and occasionally results in premature d",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "Gene expression profiling in asthma"
+      },
+      {
+      "id": "AaD82B6d-e739-6341-be4f-62093eCd1F54",
+      "name": "GB29260 Lebrikizumab in patients with uncontrolled asthma",
+      "description": "A Phase II, Randomised, Double Blind, Placebo-controlled Bronscoscopy study to evaluate the effects of Lebrikizumab on airway eosinophilic inflammation in patients with uncontrolled asthma on inhaled corticosteroids and a second controller medication.; St",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "GB29260 Lebrikizumab in patients with uncontrolled asthma"
+      },
+      {
+      "id": "D974c5ae-9854-495e-963c-cE0549f7A8CB",
+      "name": "A pragmatic trial of corticosteroid optimisation in severe asthma",
+      "description": "A RANDOMISED PRAGMATIC TRIAL OF CORTICOSTEROID OPTIMISATION IN SEVERE ASTHMA USING A COMPOSITE BIOMARKER ALGORITHM TO ADJUST CORTICOSTEROID DOSE VERSUS STANDARD CARE",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "A pragmatic trial of corticosteroid optimisation in severe asthma"
+      },
+      {
+      "id": "c6D4be1A-BE34-3c18-9713-5fe0Bc12CFaA",
+      "name": "UK CAVIAR",
+      "description": "The UK CArdiac And Vascular Surgery Interventional Anaemia Response Study: An Observational Cohort Study To Determine The Impact And Effect Of Anaemia In Patients Awaiting Vascular And Cardiac Surgery.; This is a multicentre centre, observational pilot st",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "UK CAVIAR"
+      },
+      {
+      "id": "7D9bF58f-7e9E-31ac-A68f-01CE65b9eaBd",
+      "name": "HYDRA-P",
+      "description": "HYDration and bicarbonate to prevent acute Renal injury after endovascular Aneurysm repair",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "HYDRA-P"
+      },
+      {
+      "id": "2D6fEC5e-94EA-DEeb-da3B-fFe3b216Cc74",
+      "name": "LuCID: Lung Cancer Indicator Detection",
+      "description": "LuCID: Lung Cancer Indicator Detection; Purpose: Rationale  Early detection of lung cancer is of paramount importance to improve patient outcome. Unfortunately most early stage tumors are asymptomatic. At this stage cancer cells do already have considerab",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "LuCID: Lung Cancer Indicator Detection"
+      },
+      {
+      "id": "0D982f1E-2f8b-a72b-5B0f-d9E0B37264aF",
+      "name": "CCRN 2536 (Idiopathic pulmonary fibrosis)",
+      "description": "PASSPORT - Post-Authorisation Safety Study (PASS) of Esbriet (Pirfenidone): A Prospective Observational Registry to Evaluate Long-Term Safety in a Real-World Setter",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "CCRN 2536 (Idiopathic pulmonary fibrosis)"
+      },
+      {
+      "id": "2a751f8F-aed8-dFf5-AFdB-6128e53c4ABf",
+      "name": "VICORI",
+      "description": "Cardio-oncology: A high resolution national electronic health record investigation of the interplay between cancer and heart disease ; Purpose: To investigate the interactions between heart disease and cancer.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "VICORI"
+      },
+      {
+      "id": "c2DB8FAE-7Eb0-7fAE-2950-360a2c81Bd9f",
+      "name": "TICONC",
+      "description": "Ticagrelor for prevention of tumour cell-induced platelet aggregation; Purpose: Investigating Aspirin and Ticagrelor for the prevention of tumour cell-induced platelet aggregation",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "TICONC"
+      },
+      {
+      "id": "29AaEd4e-B254-75FE-deA0-aCB198b53E46",
+      "name": "SCAD CAE",
+      "description": "Rare coronary phenotypes leading to acute coronary syndromes (ACS): A deep phenotyping study of spontaneous; A deep phenotyping study of spontaneous coronary artery dissection (SCAD) and coronary artery aneurysms/ectasia (CAE)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "SCAD CAE"
+      },
+      {
+      "id": "8Ba26db3-d4Be-3560-6D89-b6DB41f297aF",
+      "name": "GLOBAL LEADERS",
+      "description": "Global Leaders (ECRI 1)  (CCRN 2137); Comparative effectiveness of 1 month of ticagrelor plus aspirin followed by ticagrelor monotherapy versus a current day intensive dual anitplatelet therapy in all comers patients undergoing percutaneous coronary inter",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "GLOBAL LEADERS"
+      },
+      {
+      "id": "E693CD41-2A1e-8147-CAE5-E2cb5Af6e31a",
+      "name": "Faraday 5301-201",
+      "description": "Phase 2A, Randomized, Double-Blind, Placebo-Controlled, Multi-Center Study of Intravenous FDY-5301 in Acute Myocardial Infarction (Protocol No. FDY-5301-201)",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Faraday 5301-201"
+      },
+      {
+      "id": "87653cfE-07fA-467C-3F91-0aEc2De8Bf35",
+      "name": "Epidemiology, management, outcomes and pathophysiology of SCAD",
+      "description": "Epidemiology, management, outcomes and pathophysiology of SCAD;  Spontaneous coronary artery dissection (SCAD): vascular pathophysiology, epidemiology and genetics",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Epidemiology, management, outcomes and pathophysiology of SCAD"
+      },
+      {
+      "id": "DAd1fB20-A4eF-b74c-A69a-dBe2bE6Daf5A",
+      "name": "A Feasibility Study of Coronary OCT Correlation and Strain Mapping",
+      "description": "A Feasibility Study of Coronary OCT Correlation and Strain Mapping; Coronary optical coherence tomography correlation and strain mapping to investigate human atherosclerosis: a feasibility study.",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "A Feasibility Study of Coronary OCT Correlation and Strain Mapping"
+      },
+      {
+      "id": "271ad065-F6dB-2fce-abdf-7231ef64bcE8",
+      "name": "ABSORB UK Registry",
+      "description": "A post-market registry of patients with de novo lesions in previously untreated vessels treated with Absorb BVS; Prospective multi-center registry evaluating the safety and clinical outcomes of the Absorb BVS in daily use in patients with de novo lesions ",
+      "externalUrl": "https://www.le.ac.uk/",
+      "createDateTime": "2022-08-02 11:56:54",
+      "updateDateTime": "2022-08-02 11:56:54",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "ABSORB UK Registry"
+      },
+      {
+      "id": "7c84dBF5-dCB6-94Ee-4d29-7Cf8E90D563c",
+      "name": "REVAKI-2",
+      "description": "In a double-blind RCT, adults at increased risk of AKI undergoing cardiac surgery were randomised to receive sildenafil citrate or dextrose at the commencement of surgery. The primary outcome was serum creatinine. The primary analysis used a linear mixed-effects model adjusted for the stratification variables, baseline eGFR, and surgical procedure. Secondary outcomes considered clinical events and potential disease mechanisms. Effect estimates were expressed as MDs or odds ratios with 95% CI.",
+      "externalUrl": "https://www2.le.ac.uk/departments/cardiovascular-sciences/people/murphy",
+      "createDateTime": "2022-04-07 15:29:49",
+      "updateDateTime": "2022-04-07 15:29:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "6d031B9D-1cbC-be8F-83fC-A79B1ed4802a",
+      "name": "Salmonella phage ΦRA collection",
+      "description": "Phage collection targeting multiple serovars of Salmonella ",
+      "externalUrl": "https://le.ac.uk/research/luminaries/professor-martha-clokie",
+      "createDateTime": "2021-11-29 17:15:19",
+      "updateDateTime": "2021-11-29 17:15:19",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "B49DA01e-CB59-3CB4-963E-b83a1024D5fF",
+      "name": "Detailed characterisation of clinically relevant Clostridioides difficile phages",
+      "description": "The microbiome dysbiosis caused by antibiotic treatment has been associated with both susceptibility to and relapse of Clostridioides (formerly Clostridium) difficile infection (CDI). Bacteriophage (phage) therapy offers target specificity and dose amplification in situ, but few studies have focused on its use in CDI treatment. This mainly reflects the lack of strictly virulent phages that target this pathogen. This project focuses on the development of seven broad host range phages ",
+      "externalUrl": "https://le.ac.uk/research/luminaries/professor-martha-clokie",
+      "createDateTime": "2021-11-29 16:57:57",
+      "updateDateTime": "2021-11-29 16:57:57",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "B49DA01e-CB59-3CB4-963E-b83a1024D5fF",
+      "name": "The development of a phage food additive with the aim to control Salmonella in swine and poultry",
+      "description": "Salmonella spp. is a leading cause of gastrointestinal enteritis in humans where it is largely contracted via contaminated poultry and pork. Phages can be used to control Salmonella infection in the animals, which could break the cycle of infection before the products are accessible for consumption. Here, the potential of twenty-one myoviruses and a siphovirus to eliminate Salmonella in vitro and in vivo is being examined with the aim of developing a biocontrol strategy to curtail the infection ",
+      "externalUrl": "https://le.ac.uk/research/luminaries/professor-martha-clokie",
+      "createDateTime": "2021-11-29 16:57:57",
+      "updateDateTime": "2021-11-29 16:57:57",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "C8D2A9Ed-c7a6-2deB-dB3C-bcaF3f6D5184",
+      "name": "CHiASM Carbon Dioxide (CO2) Database",
+      "description": "Comprehensive hemodynamic assessment of CrCP and RAP during hyperventilation-induced hypocapnia in two distinct age groups (young ≤ 49 and old > 50). CBFV in the middle cerebral artery (CBFV, transcranial Doppler), blood pressure (BP, Finometer) and end-tidal CO2 (EtCO2, capnography) were recorded in 104 healthy individuals (43 young [age 33.8 (9.3) years], 61 old [age 64.1 (8.5) years]) during a minimum of 60 s of metronome-driven hyperventilation-induced hypocapnia. \r\n",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-24 11:55:03",
+      "updateDateTime": "2021-11-24 11:55:03",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "01fca3Ce-6Cef-ce06-b9a5-F589cf04AbD1",
+      "name": "Neurovascular coupling in healthy controls and dementia",
+      "description": "This dataset contains physiological data on heart rate, blood pressure, CO2, and bilateral resting and task-activated cerebral blood flow velocity (CBFv) on healthy controls (HC) and people with Alzheimer's disease (34) and  mild cognitive impairment (MCI, n=22). The data contains information on CBFv responses to 20 tasks from the Addenbrooke's cognitive examination (ACE-III) in 50 HC, 10 AD, and 10 MCI, and 5 tasks from the ACE-III in  20 HC, 34 AD, and 22 MCI. ",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-24 11:46:15",
+      "updateDateTime": "2021-11-24 11:46:15",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "FbD32B1c-598A-4Ebe-Aa0b-142B60D8ECbc",
+      "name": "CHiASM database",
+      "description": "Continuous recordings of cerebrovascular and systemic parameters, typically with 5 min duration of cerebral blood flow velocity, arterial blood pressure, ECG, and end-tidal CO2. ",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-24 11:40:15",
+      "updateDateTime": "2021-11-24 11:40:15",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "COVID HEART",
+      "description": "COVID HEART",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "C-MORE",
+      "description": "C-MORE",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Interfield Strength",
+      "description": "Interfield Strength",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "LENTEN",
+      "description": "LENTEN",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "GO-DCM",
+      "description": "GO-DCM",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "DHF",
+      "description": "DHF",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CMR Guide",
+      "description": "CMR Guide",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CTO",
+      "description": "CTO",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Pre-Op Energy",
+      "description": "Pre-Op Energy",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Val Card",
+      "description": "Val Card",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ReST – Aorta",
+      "description": "ReST – Aorta",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "MRI in Aortic dissection",
+      "description": "MRI in Aortic dissection",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "SCAD",
+      "description": "SCAD",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "LiMb",
+      "description": "LiMb",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "DISCORDANCE",
+      "description": "DISCORDANCE",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CMR in ACS",
+      "description": "CMR in ACS",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "RapidNSTEMI",
+      "description": "RapidNSTEMI",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ACS (Pilot)",
+      "description": "ACS (Pilot)",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ECSERT",
+      "description": "ECSERT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "MIDNIGHT",
+      "description": "MIDNIGHT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "C-PACE",
+      "description": "C-PACE",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CYCLE-HD",
+      "description": "CYCLE-HD",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "PATHWAY RCT",
+      "description": "PATHWAY RCT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Diamond",
+      "description": "Diamond",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CMR vs CT-FFR",
+      "description": "CMR vs CT-FFR",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CE-MARC 2",
+      "description": "CE-MARC 2",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "MR INFORM RCT",
+      "description": "MR INFORM RCT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "INFUSE AMI",
+      "description": "INFUSE AMI",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "DREAM",
+      "description": "DREAM",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CATCH-AMI",
+      "description": "CATCH-AMI",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "T-TIME",
+      "description": "T-TIME",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "MVO",
+      "description": "MVO",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CULPRIT",
+      "description": "CULPRIT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "FARADAY",
+      "description": "FARADAY",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "BHF STEMI LV remodelling",
+      "description": "BHF STEMI LV remodelling",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "DETA",
+      "description": "DETA",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ROWING AWAY- IGT",
+      "description": "ROWING AWAY- IGT",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "LYDIA",
+      "description": "LYDIA",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "CardioMET",
+      "description": "CardioMET",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Predict",
+      "description": "Predict",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Diastolic",
+      "description": "Diastolic",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Expedition",
+      "description": "Expedition",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ELASTIC AS",
+      "description": "ELASTIC AS",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "Ranolazine in AS",
+      "description": "Ranolazine in AS",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "TAVI",
+      "description": "TAVI",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "PRIMID",
+      "description": "PRIMID",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "EVOLVED",
+      "description": "EVOLVED",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "AF28d4E6-9dcC-1c7F-D204-Fe17dCcD39AB",
+      "name": "ELASTIC",
+      "description": "ELASTIC",
+      "externalUrl": "https://le.ac.uk/cardiovascular-sciences",
+      "createDateTime": "2021-11-12 11:01:49",
+      "updateDateTime": "2021-11-12 11:01:49",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "5F0BcdD9-5fe1-f0BD-edCD-FECDb10e76cf",
+      "name": "MUrMuR ",
+      "description": "Measuring and Understanding Multimorbidity Using  Routine Data in the UK",
+      "externalUrl": "",
+      "createDateTime": "2022-03-03 16:09:50",
+      "updateDateTime": "2022-03-03 16:09:50",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "D309e4bE-7CF6-a0f2-48E7-96aE5d20F17e",
+      "name": "REQUITE prostate cancer cohort",
+      "description": ".",
+      "externalUrl": "",
+      "createDateTime": "2021-10-13 18:39:48",
+      "updateDateTime": "2021-10-13 18:39:48",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "REQUITE consortium"
+      },
+      {
+      "id": "D309e4bE-7CF6-a0f2-48E7-96aE5d20F17e",
+      "name": "REQUITE lung cancer cohort",
+      "description": ".",
+      "externalUrl": "",
+      "createDateTime": "2021-10-13 18:39:48",
+      "updateDateTime": "2021-10-13 18:39:48",
+      "resourceTypes": "KnowledgeBase",
+      "organisation": "REQUITE consortium"
+      },
+      {
+      "id": "D309e4bE-7CF6-a0f2-48E7-96aE5d20F17e",
+      "name": "REQUITE breast cohort",
+      "description": "maybe later",
+      "externalUrl": "https://requite.eu",
+      "createDateTime": "2021-10-13 18:39:48",
+      "updateDateTime": "2021-10-13 18:39:48",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "REQUITE"
+      },
+      {
+      "id": "2Bf0e47A-0aCA-FE6d-ABbF-e8B1fC2497D5",
+      "name": "LCC-CKD",
+      "description": "Leicestershire primary care chronic kidney disease dataset",
+      "externalUrl": "https://academic.oup.com/ndt/advance-article-abstract/doi/10.1093/ndt/gfaa291/6095733?redirectedFrom=PDF",
+      "createDateTime": "2021-10-07 12:45:19",
+      "updateDateTime": "2021-10-07 12:45:19",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "ADaeC0EB-A43f-C60F-84Ff-82b1509CfcBa",
+      "name": "PSP-CKD data",
+      "description": "CKD data derived from trial of primary care intervention for CKD in Northants. \r\n46 practices data",
+      "externalUrl": "https://jasn.asnjournals.org/content/jnephrol/early/2019/05/15/ASN.2018101042.full.pdf?with-ds=yes%3Fversioned%3Dtrue",
+      "createDateTime": "2021-10-07 12:35:58",
+      "updateDateTime": "2021-10-07 12:35:58",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University of Leicester"
+      },
+      {
+      "id": "d5102DE9-B456-4fde-AC8f-aFc73eB24bC8",
+      "name": "Paediatric Observation Priority Score (POPS) ",
+      "description": "Outcomes (disposition, diagnosis, length of stay) of children (under 16 years) presenting to the Children's Emergency Department at the Leicester Royal Infirmary from 2018 linked to initial POPS score (obtained at triage). \r\n\r\nData has been used to demonstrate change in acuity levels during COVID (Winning Elizabeth Molyneux Prize at 2020 Royal College of Emergency Medicine Conference) and in BBC media reports during the summer of 2021 ",
+      "externalUrl": "https://www2.le.ac.uk/departments/cardiovascular-sciences/research/intervention/emergency-medicine-group/research/pemla/pops",
+      "createDateTime": "2021-08-31 15:38:17",
+      "updateDateTime": "2021-08-31 15:38:17",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "University Hospitals of Leicester NHS Trust"
+      },
+      {
+      "id": "E765c9CB-0E4d-ae85-bE5C-B6ab2DcFA0C3",
+      "name": "TARN PROMS Prediction Dataset",
+      "description": "Dataset used in the Trauma Audit and Research Network (TARN) project using predictive modelling of major trauma Patient Reported Outcome Measures (PROMS).",
+      "externalUrl": "https://www.tarn.ac.uk/Content.aspx?ca=9&c=3810",
+      "createDateTime": "2021-08-26 09:23:50",
+      "updateDateTime": "2021-08-26 09:23:50",
+      "resourceTypes": "PatientRegistryDataset",
+      "organisation": "Trauma Audit and Research Network"
+      },
+      {
+      "id": "F4CfdA3E-F1Dc-bc8d-EA82-ecC25DB41a89",
+      "name": "FAST: Female Aneurysm screening Study",
+      "description": "An abdominal aortic aneurysm (AAA) is a swelling of the main blood vessel (aorta) in the abdomen. If the swelling gets too large the aorta can burst and this is usually fatal. In order to prevent rupture, AAA can be surgically repaired. This is usually carried out when the size of the AAA is more than 5.5cm in diameter as below this size, the risk of rupture is lower than the risk of surgery. AAA are usually asymptomatic before rupture but can easily and safely be diagnosed by ultrasound scannin",
+      "externalUrl": "https://example.com",
+      "createDateTime": "2022-05-09 13:47:00",
+      "updateDateTime": "2022-05-09 13:47:00",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "NIHR Leicester Biomedical Research Centre"
+      },
+      {
+      "id": "c70aDbAE-0b61-b8fE-8324-43b57fEAadD9",
+      "name": "UKAGS metadata",
+      "description": "UKAGS is a prospective observational cohort study, which between 2011 and 2019 recruited men attending abdominal aortic aneurysm (AAA) screening in England, Wales and Scotland. AAA cases and controls were recruited. Annually, samples of blood and urine were collected for genomic and biomarker analysis, and self-completion postal questionnaires were collected for clinical and SF-8 QoL information. Aortic ultrasound scan measurements, including follow-up, are collected via the national programmes.",
+      "externalUrl": "https://le.ac.uk/ukags/researchers",
+      "createDateTime": "2021-05-05 13:23:47",
+      "updateDateTime": "2021-05-05 13:23:47",
+      "resourceTypes": "BiobankDataset",
+      "organisation": "University of Leicester "
+      }
+    
+  ]
